@@ -1,0 +1,7 @@
+torch
+ckiptagger
+tensorflow==1.15
+keras==2.2.4
+pandas
+scikit-learn
+tqdm
