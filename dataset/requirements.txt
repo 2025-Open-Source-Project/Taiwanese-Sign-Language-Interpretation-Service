@@ -1,0 +1,12 @@
+mtkresearch
+transformer
+accelerate
+timm 
+einops
+openai
+pydantic
+fastapi
+uvicorn
+sentence_transformers
+torch==2.0.1+cu117 
+torchvision==0.15.2

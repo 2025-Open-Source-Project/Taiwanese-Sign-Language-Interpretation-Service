@@ -1,0 +1,1121 @@
+[
+    {
+    	"can_find": 1,
+    	"id": "1",
+    	"text": "會計與科技資訊學系",
+        "result": "會計與科技資訊學系",
+    	"sign_animation": "video/d/department_of_accounting_and_informatoin_technology.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "2",
+    	"text": "會資系",
+        "result": "會資系",
+    	"sign_animation": "video/d/department_of_accounting_and_informatoin_technology.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "3",
+    	"text": "法學院",
+        "result": "法學院",
+    	"sign_animation": "video/c/college_of_law.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "4",
+    	"text": "法律系",
+        "result": "法律系",
+    	"sign_animation": "video/d/department_of_law.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "5",
+    	"text": "條文",
+        "result": "條文",
+    	"sign_animation": "video/c/clause_a.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "6",
+    	"text": "財經法律學系",
+        "result": "財經法律學系",
+    	"sign_animation": "video/d/department_of_financial_and_economic_law.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "7",
+    	"text": "財法系",
+        "result": "財法系",
+    	"sign_animation": "video/d/department_of_financial_and_economic_law.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "8",
+    	"text": "教育學院",
+        "result": "教育學院",
+    	"sign_animation": "video/c/college_of_education.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "9",
+    	"text": "成人繼續教育學系",
+        "result": "成人繼續教育學系",
+    	"sign_animation": "video/a/adult_and_continuing_education.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "10",
+    	"text": "成教系",
+        "result": "成教系",
+    	"sign_animation": "video/a/adult_and_continuing_education.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "11",
+    	"text": "成人",
+        "result": "成人",
+    	"sign_animation": "video/a/adult.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "12",
+    	"text": "犯罪防治學系",
+        "result": "犯罪防治學系",
+    	"sign_animation": "video/d/department_of_criminology.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "13",
+    	"text": "犯防系",
+        "result": "犯防系",
+    	"sign_animation": "video/d/department_of_criminology.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "14",
+    	"text": "運動競技學系",
+        "result": "運動競技學系",
+    	"sign_animation": "video/d/department_of_athletic_sports.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "15",
+    	"text": "運競系",
+        "result": "運競系",
+    	"sign_animation": "video/d/department_of_athletic_sports.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "16",
+    	"text": "番茄",
+        "result": "番茄",
+    	"sign_animation": "video/t/tomato.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "17",
+    	"text": "披薩",
+        "result": "披薩",
+    	"sign_animation": "video/p/pizza.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "18",
+    	"text": "鮪魚",
+        "result": "鮪魚",
+    	"sign_animation": "video/t/tuna.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "19",
+    	"text": "蓮霧",
+        "result": "蓮霧",
+    	"sign_animation": "video/b/bell_fruit_a.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "20",
+    	"text": "草莓",
+        "result": "草莓",
+    	"sign_animation": "video/s/strawberry_a.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "21",
+    	"text": "冬瓜",
+        "result": "冬瓜",
+    	"sign_animation": "video/w/white_gourd.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "22",
+    	"text": "蘋果",
+        "result": "蘋果",
+    	"sign_animation": "video/a/apple.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "23",
+    	"text": "我會游泳",
+        "result": "我會游泳",
+    	"sign_animation": 	"sentence/a/S-able_n.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "24",
+    	"text": "他很孤單，需要陪伴",
+        "result": "他很孤單，需要陪伴",
+    	"sign_animation": 	"sentence/a/S-accompany.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "25",
+    	"text": "他們兩家從以前到現在積怨很久",
+        "result": "他們兩家從以前到現在積怨很久",
+    	"sign_animation": 	"sentence/a/S-accumulated_hatred_a.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "26",
+    	"text": "他近來的行動怪異",
+        "result": "他近來的行動怪異",
+    	"sign_animation": 	"sentence/a/S-action.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "27",
+    	"text": "寫作業會增加壓力",
+        "result": "寫作業會增加壓力",
+    	"sign_animation": 	"sentence/a/S-add.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "28",
+    	"text": "人人都要有冒險無懼的精神",
+        "result": "人人都要有冒險無懼的精神",
+    	"sign_animation": 	"sentence/a/S-adventure_b.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "29",
+    	"text": "我完全不知道這件事",
+        "result": "我完全不知道這件事",
+    	"sign_animation": 	"sentence/a/S-affairs.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "30",
+    	"text": "我家有事情要處理",
+        "result": "我家有事情要處理",
+    	"sign_animation": 	"sentence/a/S-affairs_2.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "31",
+    	"text": "家庭對人有很大的影響",
+        "result": "家庭對人有很大的影響",
+    	"sign_animation": 	"sentence/a/S-affect.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "32",
+    	"text": "他看見蜜蜂就害怕",
+        "result": "他看見蜜蜂就害怕",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "33",
+    	"text": "自己去森林很危險",
+        "result": "自己去森林很危險",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "34",
+    	"text": "這麼繁重的工作，真叫我害怕",
+        "result": "這麼繁重的工作，真叫我害怕",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "35",
+    	"text": "我和他很怕閃電",
+        "result": "我和他很怕閃電",
+    	"sign_animation": 	"sentence/a/S-afraid_s.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "36",
+    	"text": "今天下午要去打籃球",
+        "result": "今天下午要去打籃球",
+    	"sign_animation": 	"sentence/a/S-afternoon_b.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "37",
+    	"text": "歡迎再度來到台灣",
+        "result": "歡迎再度來到台灣",
+    	"sign_animation": 	"sentence/a/S-again.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "38",
+    	"text": "我想他一定來",
+        "result": "我想他一定來",
+    	"sign_animation": 	"sentence/a/S-agree_h.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "39",
+    	"text": "他到機場觀賞飛機起降",
+        "result": "他到機場觀賞飛機起降",
+    	"sign_animation": 	"sentence/a/S-airport.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "40",
+    	"text": "爸爸完全不知道這件事",
+        "result": "爸爸完全不知道這件事",   
+    	"sign_animation": 	"sentence/a/S-all.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "41",
+    	"text": "他完全聽不懂我說的話",
+        "result": "他完全聽不懂我說的話",
+    	"sign_animation": 	"sentence/a/S-all_2.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "42",
+    	"text": "他經常睡不著",
+        "result": "他經常睡不著",
+    	"sign_animation": 	"sentence/a/S-always.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "43",
+    	"text": "我老是忘記寫功課",
+        "result": "我老是忘記寫功課",
+    	"sign_animation": 	"sentence/a/S-always_2.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "44",
+    	"text": "爸爸很生氣",
+        "result": "爸爸很生氣",
+    	"sign_animation": 	"sentence/a/S-angry_a.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "45",
+    	"text": "氣象局宣布明天颱風會侵台",
+        "result": "氣象局宣布明天颱風會侵台",
+    	"sign_animation": 	"sentence/a/S-announce.mp4"
+    },
+    {
+    	"can_find": 1,
+    	"id": "46",
+    	"text": "我剛剛已經回答了你的問題",
+        "result": "我剛剛已經回答了你的問題",
+    	"sign_animation": 	"sentence/a/S-answer.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "47",
+        "text": "他開車經過了許多高樓",
+        "result": "他開車經過了許多高樓",
+        "sign_animation": "sentence/a/S-apartment_building_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "48",
+        "text": "我們約明天下午三點見面",
+        "result": "我們約明天下午三點見面",
+        "sign_animation": "sentence/a/S-appointment.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "49",
+        "text": "我懂得游泳",
+        "result": "我會游泳",
+        "sign_animation": 	"sentence/a/S-able_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "50",
+        "text": "我學會了游泳",
+        "result": "我會游泳",
+        "sign_animation": 	"sentence/a/S-able_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "51",
+        "text": "我能游泳",
+        "result": "我會游泳",
+        "sign_animation": 	"sentence/a/S-able_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "52",
+        "text": "他非常寂寞，需要有人陪",
+        "result": "他很孤單，需要陪伴",
+    	"sign_animation": 	"sentence/a/S-accompany.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "53",
+        "text": "他覺得孤獨，需要陪伴",
+        "result": "他很孤單，需要陪伴",
+    	"sign_animation": 	"sentence/a/S-accompany.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "54",
+        "text": "他很孤寂，需要有人在身邊",
+        "result": "他很孤單，需要陪伴",
+    	"sign_animation": 	"sentence/a/S-accompany.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "55",
+        "text": "他們兩家自古以來就有深仇宿怨",
+        "result": "他們兩家從以前到現在積怨很久",
+    	"sign_animation": 	"sentence/a/S-accumulated_hatred_a.mp4"
+
+    },
+    {
+        "can_find": 1,
+        "id": "56",
+        "text": "他們兩家長期以來結下了怨恨",
+        "result": "他們兩家從以前到現在積怨很久",
+    	"sign_animation": 	"sentence/a/S-accumulated_hatred_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "57",
+        "text": "他們兩家恩怨已經拖了很久",
+        "result": "他們兩家從以前到現在積怨很久",
+    	"sign_animation": 	"sentence/a/S-accumulated_hatred_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "58",
+        "text": "他最近的舉動很奇怪",
+        "result": "他近來的行動怪異",
+    	"sign_animation": 	"sentence/a/S-action.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "59",
+        "text": "他近來的行為不尋常",
+        "result": "他近來的行動怪異",
+    	"sign_animation": 	"sentence/a/S-action.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "60",
+        "text": "他這陣子的動作很反常",
+        "result": "他近來的行動怪異",
+    	"sign_animation": 	"sentence/a/S-action.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "61",
+        "text": "寫功課會讓壓力變大",
+        "result": "寫作業會增加壓力",
+    	"sign_animation": 	"sentence/a/S-add.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "62",
+        "text": "作業會帶來壓力",
+        "result": "寫作業會增加壓力",
+    	"sign_animation": 	"sentence/a/S-add.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "63",
+        "text": "每個人都應該具備無懼冒險的精神",
+        "result": "人人都要有冒險無懼的精神",
+    	"sign_animation": 	"sentence/a/S-adventure_b.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "64",
+        "text": "人人都該有勇於冒險的態度",
+        "result": "人人都要有冒險無懼的精神",
+    	"sign_animation": 	"sentence/a/S-adventure_b.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "65",
+        "text": "大家都要有無所畏懼的冒險精神",
+        "result": "人人都要有冒險無懼的精神",
+    	"sign_animation": 	"sentence/a/S-adventure_b.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "66",
+        "text": "我對這件事一無所知",
+        "result": "我完全不知道這件事",
+    	"sign_animation": 	"sentence/a/S-affairs.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "67",
+        "text": "我根本不曉得這件事",
+        "result": "我完全不知道這件事",
+    	"sign_animation": 	"sentence/a/S-affairs.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "68",
+        "text": "我家裡有事要辦",
+        "result": "我家有事情要處理",
+    	"sign_animation": 	"sentence/a/S-affairs_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "69",
+        "text": "我家有些事需要處理",
+        "result": "我家有事情要處理",
+    	"sign_animation": 	"sentence/a/S-affairs_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "70",
+        "text": "家裡有事情要忙",
+        "result": "我家有事情要處理",
+    	"sign_animation": 	"sentence/a/S-affairs_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "71",
+        "text": "家庭對人的影響很深",
+        "result": "家庭對人有很大的影響",
+    	"sign_animation": 	"sentence/a/S-affect.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "72",
+        "text": "家庭對人影響重大",
+        "result": "家庭對人有很大的影響",
+    	"sign_animation": 	"sentence/a/S-affect.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "73",
+        "text": "家庭會深刻影響一個人",
+        "result": "家庭對人有很大的影響",
+    	"sign_animation": 	"sentence/a/S-affect.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "74",
+        "text": "他一見到蜜蜂就會害怕",
+        "result": "他看見蜜蜂就害怕",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "75",
+        "text": "他看到蜜蜂就會發怵",
+        "result": "他看見蜜蜂就害怕",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "76",
+        "text": "他對蜜蜂很恐懼",
+        "result": "他看見蜜蜂就害怕",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4" 
+    },
+    {
+        "can_find": 1,
+        "id": "77",
+        "text": "一個人去森林很危險",
+        "result": "自己去森林很危險",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "78",
+        "text": "獨自進森林很危險",
+        "result": "自己去森林很危險",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "79",
+        "text": "獨去森林不安全",
+        "result": "自己去森林不安全",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "80",
+        "text": "這工作太繁重了，讓我很害怕",
+        "result": "這麼繁重的工作，真叫我害怕",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "81",
+        "text": "這麼沉重的工作，真讓我發怵",
+        "result": "這麼沉重的工作，真讓我害怕",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "82",
+        "text": "這種繁重的任務，讓我心生恐懼",
+        "result": "這麼繁重的任務，真讓我害怕",
+    	"sign_animation": 	"sentence/a/S-afraid_n.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "83",
+        "text": "我毫不知情",
+        "result": "我完全不知道這件事",
+    	"sign_animation": 	"sentence/a/S-affairs.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "84",
+        "text": "我跟他都很害怕閃電",
+        "result": "我和他很怕閃電",
+    	"sign_animation": 	"sentence/a/S-afraid_s.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "85",
+        "text": "今天下午我要去打球",
+        "result": "今天下午要去打籃球",
+    	"sign_animation": 	"sentence/a/S-afternoon_b.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "86",
+        "text": "今天下午我有籃球活動",
+        "result": "今天下午要去打籃球",
+    	"sign_animation": 	"sentence/a/S-afternoon_b.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "87",
+        "text": "我今天下午要去打籃球",
+        "result": "今天下午要去打籃球",
+    	"sign_animation": 	"sentence/a/S-afternoon_b.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "88",
+        "text": "歡迎再次來台灣",
+        "result": "歡迎再度來到台灣",
+    	"sign_animation": 	"sentence/a/S-again.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "89",
+        "text": "歡迎你重遊台灣",
+        "result": "歡迎再度來到台灣",
+    	"sign_animation": 	"sentence/a/S-again.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "90",
+        "text": "歡迎再一次來到台灣",
+        "result": "歡迎再度來到台灣",
+    	"sign_animation": 	"sentence/a/S-again.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "91",
+        "text": "我認為他一定會來",
+        "result": "我想他一定來",
+    	"sign_animation": 	"sentence/a/S-agree_h.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "92",
+        "text": "我猜他一定會出現",
+        "result": "我想他一定來",
+    	"sign_animation": 	"sentence/a/S-agree_h.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "93",
+        "text": "我想他必然會來",
+        "result": "我想他一定來",
+    	"sign_animation": 	"sentence/a/S-agree_h.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "94",
+        "text": "他去機場看飛機起降",
+        "result": "他到機場觀賞飛機起降",
+    	"sign_animation": 	"sentence/a/S-airport.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "95",
+        "text": "他到機場去看飛機升降",
+        "result": "他到機場觀賞飛機起降",
+    	"sign_animation": 	"sentence/a/S-airport.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "96",
+        "text": "他去機場觀看飛機起飛降落",
+        "result": "他到機場觀賞飛機起降",
+    	"sign_animation": 	"sentence/a/S-airport.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "97",
+        "text": "爸爸對這件事毫不知情",
+        "result": "爸爸完全不知道這件事",   
+    	"sign_animation": 	"sentence/a/S-all.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "98",
+        "text": "爸爸壓根不知道這件事",
+        "result": "爸爸完全不知道這件事",   
+    	"sign_animation": 	"sentence/a/S-all.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "99",
+        "text": "爸爸完全不曉得這件事",
+        "result": "爸爸完全不知道這件事",   
+    	"sign_animation": 	"sentence/a/S-all.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "100",
+        "text": "我們兩個都怕閃電",
+        "result": "我和他很怕閃電",
+    	"sign_animation": 	"sentence/a/S-afraid_s.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "101",
+        "text": "他一點也聽不懂我講的話",
+        "result": "他完全聽不懂我說的話",
+    	"sign_animation": 	"sentence/a/S-all_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "102",
+        "text": "他一點也聽不懂我講的話",
+        "result": "他完全聽不懂我說的話",
+    	"sign_animation": 	"sentence/a/S-all_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "103",
+        "text": "他對我說的話完全沒理解",
+        "result": "他完全聽不懂我說的話",
+    	"sign_animation": 	"sentence/a/S-all_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "104",
+        "text": "他常常失眠",
+        "result": "他經常睡不著",
+    	"sign_animation": 	"sentence/a/S-always.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "105",
+        "text": "他時常睡不著覺",
+        "result": "他經常睡不著",
+    	"sign_animation": 	"sentence/a/S-always.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "106",
+        "text": "他老是睡不著",
+        "result": "他經常睡不著",
+    	"sign_animation": 	"sentence/a/S-always.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "107",
+        "text": "我經常忘了寫作業",
+        "result": "我老是忘記寫功課",
+    	"sign_animation": 	"sentence/a/S-always_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "108",
+        "text": "我常常忘記做功課",
+        "result": "我老是忘記寫功課",
+    	"sign_animation": 	"sentence/a/S-always_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "109",
+        "text": "我常常忘記做功課",
+        "result": "我老是忘記寫功課",
+    	"sign_animation": 	"sentence/a/S-always_2.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "110",
+        "text": "爸爸非常憤怒",
+        "result": "爸爸很生氣",
+    	"sign_animation": 	"sentence/a/S-angry_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "111",
+        "text": "爸爸在生氣",
+        "result": "爸爸很生氣",
+    	"sign_animation": 	"sentence/a/S-angry_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "112",
+        "text": "爸爸很憤怒",
+        "result": "爸爸很生氣",
+    	"sign_animation": 	"sentence/a/S-angry_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "113",
+        "text": "氣象局預告明天颱風將登陸台灣",
+        "result": "氣象局宣布明天颱風會侵台",
+    	"sign_animation": 	"sentence/a/S-announce.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "114",
+        "text": "氣象局表示明天颱風會來襲",
+        "result": "氣象局宣布明天颱風會侵台",
+    	"sign_animation": 	"sentence/a/S-announce.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "115",
+        "text": "氣象局宣布颱風明天會影響台灣",
+        "result": "氣象局宣布明天颱風會侵台",
+    	"sign_animation": 	"sentence/a/S-announce.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "116",
+        "text": "我剛才已經答覆了你的問題",
+        "result": "我剛剛已經回答了你的問題",
+    	"sign_animation": 	"sentence/a/S-answer.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "117",
+        "text": "我剛剛回覆過你的問題了",
+        "result": "我剛剛已經回答了你的問題",
+    	"sign_animation": 	"sentence/a/S-answer.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "118",
+        "text": "我之前已經回答過了",
+        "result": "我剛剛已經回答了你的問題",
+    	"sign_animation": 	"sentence/a/S-answer.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "119",
+        "text": "他開車路過了很多大樓",
+        "result": "他開車經過了許多高樓",
+        "sign_animation": "sentence/a/S-apartment_building_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "120",
+        "text": "他駕車經過了不少高樓",
+        "result": "他開車經過了許多高樓",
+        "sign_animation": "sentence/a/S-apartment_building_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "121",
+        "text": "他開車穿過一片高樓群",
+        "result": "他開車經過了許多高樓",
+        "sign_animation": "sentence/a/S-apartment_building_a.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "122",
+        "text": "我們相約明天下午三點碰面",
+        "result": "我們約明天下午三點見面",
+        "sign_animation": "sentence/a/S-appointment.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "123",
+        "text": "我們約定明天下午三點見",
+        "result": "我們約明天下午三點見面",
+        "sign_animation": "sentence/a/S-appointment.mp4"
+    },
+    {
+        "can_find": 1,
+        "id": "124",
+        "text": "我們說好明天下午三點見面",
+        "result": "我們約明天下午三點見面",
+        "sign_animation": "sentence/a/S-appointment.mp4"
+    },
+    {
+        "can_find": 0,
+        "id": "125",
+        "text": "火車晚點兩個小時才到站" 
+    },
+    {
+        "can_find": 0,
+        "id": "126",
+        "text": "我昨天夢見自己在月球散步" 
+    },
+    {
+		"can_find": 0,
+        "id": "127",
+        "text": "這家餐廳的義大利麵特別好吃" 
+    },
+    {
+		"can_find": 0,
+        "id": "128",
+        "text": "冬天的時候山上常常下雪" 
+    },
+    {
+		"can_find": 0,
+        "id": "129",
+        "text": "他打算明年到法國留學" 
+    },
+    {
+		"can_find": 0,
+        "id": "130",
+        "text": "小狗喜歡在院子裡跑來跑去" 
+    },
+    {
+		"can_find": 0,
+        "id": "131",
+        "text": "昨天晚上天空出現了一顆流星" 
+    },
+    {
+		"can_find": 0,
+        "id": "132",
+        "text": "老師要我們分組討論這個題目" 
+    },
+    {
+		"can_find": 0,
+        "id": "133",
+        "text": "醫生提醒他要多喝水少熬夜" 
+    },
+    {
+		"can_find": 0,
+        "id": "134",
+        "text": "我在書店裡買了一本新小說" 
+    },
+    {
+		"can_find": 0,
+        "id": "135",
+        "text": "妹妹正在學彈鋼琴" 
+    },
+    {
+		"can_find": 0,
+        "id": "136",
+        "text": "超市裡的水果今天特價" 
+    },
+    {
+		"can_find": 0,
+        "id": "137",
+        "text": "這部電影讓我感動得哭了" 
+    },
+    {
+		"can_find": 0,
+        "id": "138",
+        "text": "我們下週要舉辦運動會" 
+    },
+    {
+		"can_find": 0,
+        "id": "139",
+        "text": "他買了一張去東京的機票" 
+    },
+    {
+		"can_find": 0,
+        "id": "140",
+        "text": "這隻貓喜歡曬太陽" 
+    },
+    {
+		"can_find": 0,
+        "id": "140",
+        "text": "昨天的會議持續了三個小時" 
+    },
+    {
+		"can_find": 0,
+        "id": "141",
+        "text": "他打算開一間咖啡店" 
+    },
+    {
+		"can_find": 0,
+        "id": "142",
+        "text": "小朋友在公園裡玩盪鞦韆" 
+    },
+    {
+		"can_find": 0,
+        "id": "143",
+        "text": "他正在準備明天的考試" 
+    },
+    {
+		"can_find": 0,
+        "id": "144",
+        "text": "這幅畫是出自一位名畫家之手" 
+    },
+    {
+		"can_find": 0,
+        "id": "145",
+        "text": "我很喜歡早晨的陽光" 
+    },
+    {
+		"can_find": 0,
+        "id": "146",
+        "text": "電影院裡的人很多" 
+    },
+    {
+		"can_find": 0,
+        "id": "147",
+        "text": "他打算存錢買一台新電腦" 
+    },
+    {
+		"can_find": 0,
+        "id": "148",
+        "text": "這首歌的旋律很好聽" 
+    },
+    {
+		"can_find": 0,
+        "id": "149",
+        "text": "郵局今天休息沒有開門" 
+    },
+    {
+		"can_find": 0,
+        "id": "150",
+        "text": "她正在寫一封電子郵件" 
+    },
+    {
+		"can_find": 0,
+        "id": "151",
+        "text": "我們打算週末去爬山" 
+    },
+    {
+		"can_find": 0,
+        "id": "152",
+        "text": "他每天早上都去跑步" 
+    },
+    {
+		"can_find": 0,
+        "id": "153",
+        "text": "小孩把玩具散落一地" 
+    },
+    {
+		"can_find": 0,
+        "id": "154",
+        "text": "他送了一份禮物給媽媽" 
+    },
+    {
+		"can_find": 0,
+        "id": "155",
+        "text": "這間餐廳的服務生很親切" 
+    },
+    {
+		"can_find": 0,
+        "id": "156",
+        "text": "他們計劃到海邊露營" 
+    },
+    {
+		"can_find": 0,
+        "id": "157",
+        "text": "我今天忘了帶雨傘出門" 
+    },
+    {
+		"can_find": 0,
+        "id": "158",
+        "text": "我們要一起參加同學聚會" 
+    },
+    {
+		"can_find": 0,
+        "id": "159",
+        "text": "這個房間需要打掃" 
+    },
+    {
+		"can_find": 0,
+        "id": "160",
+        "text": "醫院裡有很多病人" 
+    },
+    {
+		"can_find": 0,
+        "id": "161",
+        "text": "他剛剛搭計程車回家" 
+    },
+    {
+		"can_find": 0,
+        "id": "162",
+        "text": "我想要學習更多外語" 
+    },
+    {
+		"can_find": 0,
+        "id": "163",
+        "text": "這雙鞋子太小不合腳" 
+    },
+    {
+		"can_find": 0,
+        "id": "164",
+        "text": "他們正在準備表演舞蹈" 
+    },
+    {
+		"can_find": 0,
+        "id": "165",
+        "text": "我每天早上都會喝牛奶" 
+    },
+    {
+		"can_find": 0,
+        "id": "166",
+        "text": "圖書館裡非常安靜" 
+    },
+    {
+		"can_find": 0,
+        "id": "167",
+        "text": "他去郵局寄了一個包裹" 
+    },
+    {
+		"can_find": 0,
+        "id": "168",
+        "text": "昨晚的比賽非常精彩" 
+    },
+    {
+		"can_find": 0,
+        "id": "169",
+        "text": "她喜歡在假日去逛街" 
+    },
+    {
+		"can_find": 0,
+        "id": "170",
+        "text": "這棵樹長得很高大" 
+    },
+    {
+		"can_find": 0,
+        "id": "171",
+        "text": "孩子們在操場上玩遊戲" 
+    },
+    {
+		"can_find": 0,
+        "id": "172",
+        "text": "我們去超市買了很多零食" 
+    },
+    {
+		"can_find": 0,
+        "id": "173",
+        "text": "他打算學習攝影技巧" 
+    }
+]

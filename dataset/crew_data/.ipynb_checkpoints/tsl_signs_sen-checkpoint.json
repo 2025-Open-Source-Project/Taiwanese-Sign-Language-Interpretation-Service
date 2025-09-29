@@ -1,0 +1,3278 @@
+[
+  {
+    "count": "4144",
+    "id": "9",
+    "text": "我會游泳",
+    "sign_animation": "sentence/a/S-able_n.mp4"
+  },
+  {
+    "count": "4145",
+    "id": "15",
+    "text": "他很孤單，需要陪伴",
+    "sign_animation": "sentence/a/S-accompany.mp4"
+  },
+  {
+    "count": "4146",
+    "id": "17",
+    "text": "他們兩家從以前到現在積怨很久",
+    "sign_animation": "sentence/a/S-accumulated_hatred_a.mp4"
+  },
+  {
+    "count": "4147",
+    "id": "21",
+    "text": "他近來的行動怪異",
+    "sign_animation": "sentence/a/S-action.mp4"
+  },
+  {
+    "count": "4148",
+    "id": "22",
+    "text": "寫作業會增加壓力 ",
+    "sign_animation": "sentence/a/S-add.mp4"
+  },
+  {
+    "count": "4149",
+    "id": "32",
+    "text": "人人都要有冒險無懼的精神",
+    "sign_animation": "sentence/a/S-adventure_b.mp4"
+  },
+  {
+    "count": "4150",
+    "id": "35",
+    "text": "我完全不知道這件事",
+    "sign_animation": "sentence/a/S-affairs.mp4"
+  },
+  {
+    "count": "4151",
+    "id": "35",
+    "text": "我家有事情要處理",
+    "sign_animation": "sentence/a/S-affairs.mp4"
+  },
+  {
+    "count": "4152",
+    "id": "36",
+    "text": "家庭對人有很大的影響",
+    "sign_animation": "sentence/a/S-affect.mp4"
+  },
+  {
+    "count": "4153",
+    "id": "39",
+    "text": "他看見蜜蜂就害怕",
+    "sign_animation": "sentence/a/S-afraid_n.mp4"
+  },
+  {
+    "count": "4154",
+    "id": "39",
+    "text": "自己去森林很危險",
+    "sign_animation": "sentence/a/S-afraid_n.mp4"
+  },
+  {
+    "count": "4155",
+    "id": "39",
+    "text": "這麼繁重的工作，真叫我害怕",
+    "sign_animation": "sentence/a/S-afraid_n.mp4"
+  },
+  {
+    "count": "4156",
+    "id": "40",
+    "text": "我和他很怕閃電",
+    "sign_animation": "sentence/a/S-afraid_s.mp4"
+  },
+  {
+    "count": "4157",
+    "id": "45",
+    "text": "今天下午要去打籃球",
+    "sign_animation": "sentence/a/S-afternoon_b.mp4"
+  },
+  {
+    "count": "4158",
+    "id": "46",
+    "text": "歡迎再度來到台灣",
+    "sign_animation": "sentence/a/S-again.mp4"
+  },
+  {
+    "count": "4159",
+    "id": "49",
+    "text": "我想(同意)他一定來",
+    "sign_animation": "sentence/a/S-agree_h.mp4"
+  },
+  {
+    "count": "4160",
+    "id": "54",
+    "text": "他到機場觀賞飛機起降",
+    "sign_animation": "sentence/a/S-airport.mp4"
+  },
+  {
+    "count": "4161",
+    "id": "56",
+    "text": "爸爸完全不知道這件事",
+    "sign_animation": "sentence/a/S-all.mp4"
+  },
+  {
+    "count": "4162",
+    "id": "56",
+    "text": "他完全聽不懂我說的話",
+    "sign_animation": "sentence/a/S-all.mp4"
+  },
+  {
+    "count": "4163",
+    "id": "67",
+    "text": "他經常睡不著",
+    "sign_animation": "sentence/a/S-always.mp4"
+  },
+  {
+    "count": "4164",
+    "id": "67",
+    "text": "我老是忘記寫功課",
+    "sign_animation": "sentence/a/S-always.mp4"
+  },
+  {
+    "count": "4165",
+    "id": "76",
+    "text": "爸爸很生氣",
+    "sign_animation": "sentence/a/S-angry_a.mp4"
+  },
+  {
+    "count": "4166",
+    "id": "80",
+    "text": "氣象局宣布明天颱風會侵台",
+    "sign_animation": "sentence/a/S-announce.mp4"
+  },
+  {
+    "count": "4167",
+    "id": "81",
+    "text": "我剛剛已經回答了你的問題",
+    "sign_animation": "sentence/a/S-answer.mp4"
+  },
+  {
+    "count": "4168",
+    "id": "85",
+    "text": "他開車經過了許多高樓",
+    "sign_animation": "sentence/a/S-apartment_building_a.mp4"
+  },
+  {
+    "count": "4169",
+    "id": "90",
+    "text": "我們約明天下午三點見面",
+    "sign_animation": "sentence/a/S-appointment.mp4"
+  },
+  {
+    "count": "4170",
+    "id": "96",
+    "text": "明天我安排了一場會議\n",
+    "sign_animation": "sentence/a/S-arrange.mp4"
+  },
+  {
+    "count": "4171",
+    "id": "96",
+    "text": "媽媽昨天整理好了客廳",
+    "sign_animation": "sentence/a/S-arrange.mp4"
+  },
+  {
+    "count": "4172",
+    "id": "99",
+    "text": "我今天上班又遲到了",
+    "sign_animation": "sentence/a/S-arrive_late.mp4"
+  },
+  {
+    "count": "4173",
+    "id": "106",
+    "text": "他問了我一道數學題目",
+    "sign_animation": "sentence/a/S-ask.mp4"
+  },
+  {
+    "count": "4174",
+    "id": "108",
+    "text": "我們要分配好自己的時間，這樣做事才會有效率",
+    "sign_animation": "sentence/a/S-assign.mp4"
+  },
+  {
+    "count": "4175",
+    "id": "113",
+    "text": "你不要引誘他人做違法的事情",
+    "sign_animation": "sentence/a/S-attract.mp4"
+  },
+  {
+    "count": "4176",
+    "id": "128",
+    "text": "房子後面開了許多玫瑰花",
+    "sign_animation": "sentence/b/S-back.mp4"
+  },
+  {
+    "count": "4177",
+    "id": "129",
+    "text": "歹徒心狠手辣，非常殘忍",
+    "sign_animation": "sentence/b/S-bad.mp4"
+  },
+  {
+    "count": "4178",
+    "id": "138",
+    "text": "他獲保釋後接受電視專訪",
+    "sign_animation": "sentence/b/S-bail_b.mp4"
+  },
+  {
+    "count": "4179",
+    "id": "149",
+    "text": "這間銀行很古老",
+    "sign_animation": "sentence/b/S-bank.mp4"
+  },
+  {
+    "count": "4180",
+    "id": "150",
+    "text": "藝人日前記者會宣布破產",
+    "sign_animation": "sentence/b/S-bankrupt.mp4"
+  },
+  {
+    "count": "4181",
+    "id": "157",
+    "text": "籃球是我最喜歡的運動",
+    "sign_animation": "sentence/b/S-basketball.mp4"
+  },
+  {
+    "count": "4182",
+    "id": "158",
+    "text": "他每天早晚都洗澡",
+    "sign_animation": "sentence/b/S-bath_a.mp4"
+  },
+  {
+    "count": "4183",
+    "id": "175",
+    "text": "公園裡的玫瑰很美",
+    "sign_animation": "sentence/b/S-beautiful_n.mp4"
+  },
+  {
+    "count": "4184",
+    "id": "175",
+    "text": "我喜歡那個漂亮的女生",
+    "sign_animation": "sentence/b/S-beautiful_n.mp4"
+  },
+  {
+    "count": "4185",
+    "id": "178",
+    "text": "森林遊玩要注意蜜蜂，以免被攻擊",
+    "sign_animation": "sentence/b/S-bee.mp4"
+  },
+  {
+    "count": "4186",
+    "id": "180",
+    "text": "德國人喜歡喝啤酒",
+    "sign_animation": "sentence/b/S-beer.mp4"
+  },
+  {
+    "count": "4187",
+    "id": "182",
+    "text": "我求媽媽帶我去動物園玩",
+    "sign_animation": "sentence/b/S-beg.mp4"
+  },
+  {
+    "count": "4188",
+    "id": "187",
+    "text": "我相信他不是故意的",
+    "sign_animation": "sentence/b/S-believe.mp4"
+  },
+  {
+    "count": "4189",
+    "id": "199",
+    "text": "我們去買飲料",
+    "sign_animation": "sentence/b/S-beverages.mp4"
+  },
+  {
+    "count": "4190",
+    "id": "200",
+    "text": "我每天騎腳踏車上學",
+    "sign_animation": "sentence/b/S-bicycle_a.mp4"
+  },
+  {
+    "count": "4191",
+    "id": "207",
+    "text": "那隻鳥的顏色很特別",
+    "sign_animation": "sentence/b/S-bird.mp4"
+  },
+  {
+    "count": "4192",
+    "id": "211",
+    "text": "他的白髮變黑了，好神奇",
+    "sign_animation": "sentence/b/S-black.mp4"
+  },
+  {
+    "count": "4193",
+    "id": "220",
+    "text": "請朝著這張紙吹氣",
+    "sign_animation": "sentence/b/S-blow.mp4"
+  },
+  {
+    "count": "4194",
+    "id": "221",
+    "text": "今天的天空是藍色的",
+    "sign_animation": "sentence/b/S-blue.mp4"
+  },
+  {
+    "count": "4195",
+    "id": "228",
+    "text": "每天跑步對身體很好",
+    "sign_animation": "sentence/b/S-body_b.mp4"
+  },
+  {
+    "count": "4196",
+    "id": "229",
+    "text": "我喜歡煮魚料理",
+    "sign_animation": "sentence/b/S-boil.mp4"
+  },
+  {
+    "count": "4197",
+    "id": "233",
+    "text": "照顧小孩真麻煩",
+    "sign_animation": "sentence/b/S-bothersome.mp4"
+  },
+  {
+    "count": "4198",
+    "id": "234",
+    "text": "一碗米飯大概三百卡",
+    "sign_animation": "sentence/b/S-bowl.mp4"
+  },
+  {
+    "count": "4199",
+    "id": "236",
+    "text": "這個盒子是空的",
+    "sign_animation": "sentence/b/S-box.mp4"
+  },
+  {
+    "count": "4200",
+    "id": "245",
+    "text": "他買的麵包很香",
+    "sign_animation": "sentence/b/S-bread.mp4"
+  },
+  {
+    "count": "4201",
+    "id": "246",
+    "text": "弟弟打破了這個玻璃杯",
+    "sign_animation": "sentence/b/S-break.mp4"
+  },
+  {
+    "count": "4202",
+    "id": "264",
+    "text": "集市擠滿了買賣東西的人",
+    "sign_animation": "sentence/b/S-business.mp4"
+  },
+  {
+    "count": "4203",
+    "id": "267",
+    "text": "我忙得沒時間吃飯",
+    "sign_animation": "sentence/b/S-busy.mp4"
+  },
+  {
+    "count": "4204",
+    "id": "268",
+    "text": "他很熱情，可是並不囉嗦",
+    "sign_animation": "sentence/b/S-but.mp4"
+  },
+  {
+    "count": "4205",
+    "id": "272",
+    "text": "我買了去日本的機票",
+    "sign_animation": "sentence/b/S-buy_a.mp4"
+  },
+  {
+    "count": "4206",
+    "id": "277",
+    "text": "鐘響之後，老師就叫學生回來上課",
+    "sign_animation": "sentence/c/S-call.mp4"
+  },
+  {
+    "count": "4207",
+    "id": "283",
+    "text": "我們一起照相",
+    "sign_animation": "sentence/c/S-camera_a.mp4"
+  },
+  {
+    "count": "4208",
+    "id": "312",
+    "text": "他幫我買火車票",
+    "sign_animation": "sentence/t/S-ticket.mp4"
+  },
+  {
+    "count": "4209",
+    "id": "313",
+    "text": "過馬路要注意安全",
+    "sign_animation": "sentence/c/S-careful.mp4"
+  },
+  {
+    "count": "4210",
+    "id": "319",
+    "text": "老師帶學生參加科學展覽",
+    "sign_animation": "sentence/c/S-carry.mp4"
+  },
+  {
+    "count": "4211",
+    "id": "326",
+    "text": "貓很可愛",
+    "sign_animation": "sentence/c/S-cat.mp4"
+  },
+  {
+    "count": "4212",
+    "id": "328",
+    "text": "昨天他們一起抓住了小偷",
+    "sign_animation": "sentence/c/S-catch_b.mp4"
+  },
+  {
+    "count": "4213",
+    "id": "330",
+    "text": "醫生要我配合，感冒才會好得快",
+    "sign_animation": "sentence/c/S-catchcold_b.mp4"
+  },
+  {
+    "count": "4214",
+    "id": "331",
+    "text": "媽媽把這塊肉切成碎塊",
+    "sign_animation": "sentence/c/S-cut_a.mp4"
+  },
+  {
+    "count": "4215",
+    "id": "336",
+    "text": "明天我們要慶祝你的生日",
+    "sign_animation": "sentence/c/S-celebrate_a.mp4"
+  },
+  {
+    "count": "4216",
+    "id": "340",
+    "text": "這張椅子少了一隻腳",
+    "sign_animation": "sentence/c/S-chair.mp4"
+  },
+  {
+    "count": "4217",
+    "id": "344",
+    "text": "毛毛蟲變成蝴蝶了",
+    "sign_animation": "sentence/c/S-change_a.mp4"
+  },
+  {
+    "count": "4218",
+    "id": "344",
+    "text": "請修改這份文件",
+    "sign_animation": "sentence/c/S-change_a.mp4"
+  },
+  {
+    "count": "4219",
+    "id": "347",
+    "text": "我希望能與你交換位置",
+    "sign_animation": "sentence/c/S-change_position_b.mp4"
+  },
+  {
+    "count": "4220",
+    "id": "351",
+    "text": "這份文件需要再增加表格及圖示說明",
+    "sign_animation": "sentence/c/S-chart.mp4"
+  },
+  {
+    "count": "4221",
+    "id": "352",
+    "text": "哥哥追著弟弟跑",
+    "sign_animation": "sentence/c/S-chase.mp4"
+  },
+  {
+    "count": "4222",
+    "id": "353",
+    "text": "聊天是舒壓的好方法",
+    "sign_animation": "sentence/c/S-chat_a.mp4"
+  },
+  {
+    "count": "4223",
+    "id": "353",
+    "text": "吃飯的時候專心吃飯，請勿聊天",
+    "sign_animation": "sentence/c/S-chat_a.mp4"
+  },
+  {
+    "count": "4224",
+    "id": "357",
+    "text": "這輛車很便宜",
+    "sign_animation": "sentence/c/S-cheap_a.mp4"
+  },
+  {
+    "count": "4225",
+    "id": "359",
+    "text": "考試不可作弊",
+    "sign_animation": "sentence/c/S-cheat.mp4"
+  },
+  {
+    "count": "4226",
+    "id": "370",
+    "text": "爸爸是英語系主任",
+    "sign_animation": "sentence/c/S-chief.mp4"
+  },
+  {
+    "count": "4227",
+    "id": "371",
+    "text": "他的小孩長大了",
+    "sign_animation": "sentence/c/S-child.mp4"
+  },
+  {
+    "count": "4228",
+    "id": "371",
+    "text": "有好多小孩在跑來跑去",
+    "sign_animation": "sentence/c/S-child.mp4"
+  },
+  {
+    "count": "4229",
+    "id": "372",
+    "text": "他是成熟男人還是幼稚男孩?",
+    "sign_animation": "sentence/c/S-childish_a.mp4"
+  },
+  {
+    "count": "4230",
+    "id": "376",
+    "text": "農曆新年很熱鬧",
+    "sign_animation": "sentence/c/S-chinese_new_year_a.mp4"
+  },
+  {
+    "count": "4231",
+    "id": "379",
+    "text": "我會包水餃",
+    "sign_animation": "sentence/c/S-chinese_ravioli.mp4"
+  },
+  {
+    "count": "4232",
+    "id": "382",
+    "text": "請挑選你要的顏色",
+    "sign_animation": "sentence/c/S-choose.mp4"
+  },
+  {
+    "count": "4233",
+    "id": "384",
+    "text": "鐵筷比竹筷還要環保",
+    "sign_animation": "sentence/c/S-chopsticks_n.mp4"
+  },
+  {
+    "count": "4234",
+    "id": "385",
+    "text": "鐵筷比竹筷還要環保",
+    "sign_animation": "sentence/c/S-chopsticks_s.mp4"
+  },
+  {
+    "count": "4235",
+    "id": "393",
+    "text": "星期天去教會",
+    "sign_animation": "sentence/c/S-church.mp4"
+  },
+  {
+    "count": "4236",
+    "id": "393",
+    "text": "這裡新蓋了一間教堂",
+    "sign_animation": "sentence/c/S-church.mp4"
+  },
+  {
+    "count": "4237",
+    "id": "395",
+    "text": "他對菸酒上癮",
+    "sign_animation": "sentence/c/S-cigarette.mp4"
+  },
+  {
+    "count": "4238",
+    "id": "395",
+    "text": "校園禁止抽煙",
+    "sign_animation": "sentence/c/S-cigarette.mp4"
+  },
+  {
+    "count": "4239",
+    "id": "398",
+    "text": "這座城市很漂亮",
+    "sign_animation": "sentence/c/S-city.mp4"
+  },
+  {
+    "count": "4240",
+    "id": "400",
+    "text": "剛剛發生車禍，於是我申請了保險理賠",
+    "sign_animation": "sentence/c/S-claim_for_compensation.mp4"
+  },
+  {
+    "count": "4241",
+    "id": "403",
+    "text": "他跟我是同學",
+    "sign_animation": "sentence/c/S-classmate.mp4"
+  },
+  {
+    "count": "4242",
+    "id": "409",
+    "text": "你的房間整理得很乾淨",
+    "sign_animation": "sentence/c/S-clean.mp4"
+  },
+  {
+    "count": "4243",
+    "id": "409",
+    "text": "病人使用過的東西記得必須清洗乾淨",
+    "sign_animation": "sentence/c/S-clean.mp4"
+  },
+  {
+    "count": "4244",
+    "id": "412",
+    "text": "你離開時，幫我把門關上",
+    "sign_animation": "sentence/c/S-close_a_door.mp4"
+  },
+  {
+    "count": "4245",
+    "id": "412",
+    "text": "關門時要輕一點",
+    "sign_animation": "sentence/c/S-close_a_door.mp4"
+  },
+  {
+    "count": "4246",
+    "id": "416",
+    "text": "衣服在桌子上",
+    "sign_animation": "sentence/c/S-clothes.mp4"
+  },
+  {
+    "count": "4247",
+    "id": "418",
+    "text": "雲在天上",
+    "sign_animation": "sentence/c/S-cloud.mp4"
+  },
+  {
+    "count": "4248",
+    "id": "419",
+    "text": "昨天陰天，今天大太陽",
+    "sign_animation": "sentence/c/S-cloudy_day.mp4"
+  },
+  {
+    "count": "4249",
+    "id": "420",
+    "text": "這個小丑不時出現，逗人發笑",
+    "sign_animation": "sentence/c/S-clown_a.mp4"
+  },
+  {
+    "count": "4250",
+    "id": "422",
+    "text": "媽媽很怕蟑螂",
+    "sign_animation": "sentence/c/S-cockroach.mp4"
+  },
+  {
+    "count": "4251",
+    "id": "423",
+    "text": "這杯咖啡很苦",
+    "sign_animation": "sentence/c/S-coffee.mp4"
+  },
+  {
+    "count": "4252",
+    "id": "424",
+    "text": "吃完一大碗冰後我覺得很冷",
+    "sign_animation": "sentence/c/S-cold.mp4"
+  },
+  {
+    "count": "4253",
+    "id": "426",
+    "text": "你有收集郵票嗎?",
+    "sign_animation": "sentence/c/S-collect.mp4"
+  },
+  {
+    "count": "4254",
+    "id": "428",
+    "text": "這個顏色太暗了",
+    "sign_animation": "sentence/c/S-color_n.mp4"
+  },
+  {
+    "count": "4255",
+    "id": "431",
+    "text": "這衣服穿起來很舒服",
+    "sign_animation": "sentence/c/S-comfortable_a.mp4"
+  },
+  {
+    "count": "4256",
+    "id": "434",
+    "text": "剛剛爸爸命令我去整理房 間",
+    "sign_animation": "sentence/c/S-command.mp4"
+  },
+  {
+    "count": "4257",
+    "id": "435",
+    "text": "他送給我一張照片作紀念",
+    "sign_animation": "sentence/c/S-commemorate.mp4"
+  },
+  {
+    "count": "4258",
+    "id": "436",
+    "text": "這裡的會員可以免費使用運動器材",
+    "sign_animation": "sentence/c/S-commemorative_button.mp4"
+  },
+  {
+    "count": "4259",
+    "id": "439",
+    "text": "我拿「冠軍」已經是司空見慣了",
+    "sign_animation": "sentence/c/S-common_sight_a.mp4"
+  },
+  {
+    "count": "4260",
+    "id": "440",
+    "text": "開會時要充分溝通",
+    "sign_animation": "sentence/c/S-communication.mp4"
+  },
+  {
+    "count": "4261",
+    "id": "441",
+    "text": "他通學一年了，身體很累，所以決定住校。",
+    "sign_animation": "sentence/c/S-commute_b.mp4"
+  },
+  {
+    "count": "4262",
+    "id": "442",
+    "text": "謝謝貴公司一直以來對我們的信任與支持",
+    "sign_animation": "sentence/c/S-company.mp4"
+  },
+  {
+    "count": "4263",
+    "id": "443",
+    "text": "弟弟和哥哥在比較誰比較高",
+    "sign_animation": "sentence/c/S-compare.mp4"
+  },
+  {
+    "count": "4264",
+    "id": "445",
+    "text": "弟弟比賽第一名",
+    "sign_animation": "sentence/c/S-compete.mp4"
+  },
+  {
+    "count": "4265",
+    "id": "446",
+    "text": "隨著科技的進步，手機功能也越來越複雜",
+    "sign_animation": "sentence/c/S-complicated_a.mp4"
+  },
+  {
+    "count": "4266",
+    "id": "449",
+    "text": "我們要常常關心家人",
+    "sign_animation": "sentence/c/S-concerned.mp4"
+  },
+  {
+    "count": "4267",
+    "id": "451",
+    "text": "祝你生日快樂",
+    "sign_animation": "sentence/c/S-congratulate.mp4"
+  },
+  {
+    "count": "4268",
+    "id": "452",
+    "text": "這部電影既愚蠢、無聊又保守",
+    "sign_animation": "sentence/c/S-conservative_a.mp4"
+  },
+  {
+    "count": "4269",
+    "id": "458",
+    "text": "請你下次記得與我聯絡",
+    "sign_animation": "sentence/c/S-contact.mp4"
+  },
+  {
+    "count": "4270",
+    "id": "459",
+    "text": "散播疫情假訊息，最高罰300萬元",
+    "sign_animation": "sentence/c/S-contagious.mp4"
+  },
+  {
+    "count": "4271",
+    "id": "460",
+    "text": "你要仔細看簽約的內容",
+    "sign_animation": "sentence/c/S-contract.mp4"
+  },
+  {
+    "count": "4272",
+    "id": "462",
+    "text": "你做事一定要考慮清楚，不要反反覆覆",
+    "sign_animation": "sentence/c/S-contradict_oneself_b.mp4"
+  },
+  {
+    "count": "4273",
+    "id": "471",
+    "text": "這個答案正確",
+    "sign_animation": "sentence/c/S-correct.mp4"
+  },
+  {
+    "count": "4274",
+    "id": "473",
+    "text": "這個市長不腐敗貪婪，很公正",
+    "sign_animation": "sentence/c/S-corrupt_a.mp4"
+  },
+  {
+    "count": "4275",
+    "id": "477",
+    "text": "咳嗽要記得吃藥",
+    "sign_animation": "sentence/c/S-cough.mp4"
+  },
+  {
+    "count": "4276",
+    "id": "478",
+    "text": "國與國之間的關係，瞬息萬變",
+    "sign_animation": "sentence/c/S-country.mp4"
+  },
+  {
+    "count": "4277",
+    "id": "481",
+    "text": "他最喜歡音樂課",
+    "sign_animation": "sentence/c/S-course.mp4"
+  },
+  {
+    "count": "4278",
+    "id": "482",
+    "text": "毀約可不是賠錢就能了事",
+    "sign_animation": "sentence/c/S-covenant_a.mp4"
+  },
+  {
+    "count": "4279",
+    "id": "482",
+    "text": "簽訂契約時要先仔細檢查條文",
+    "sign_animation": "sentence/c/S-covenant_a.mp4"
+  },
+  {
+    "count": "4280",
+    "id": "484",
+    "text": "做人不要太貪心，否則會因小失大",
+    "sign_animation": "sentence/c/S-covet.mp4"
+  },
+  {
+    "count": "4281",
+    "id": "485",
+    "text": "牛可以幫忙耕田",
+    "sign_animation": "sentence/c/S-cow.mp4"
+  },
+  {
+    "count": "4282",
+    "id": "489",
+    "text": "他又遲到了，令我發狂",
+    "sign_animation": "sentence/l/S-lose_one's_mind.mp4"
+  },
+  {
+    "count": "4283",
+    "id": "490",
+    "text": "他是一位負責的刑警",
+    "sign_animation": "sentence/c/S-criminal_police.mp4"
+  },
+  {
+    "count": "4284",
+    "id": "491",
+    "text": "遭人批評的時候，要先冷靜的自我反省",
+    "sign_animation": "sentence/c/S-criticize.mp4"
+  },
+  {
+    "count": "4285",
+    "id": "492",
+    "text": "過馬路要停下來兩邊看看 ",
+    "sign_animation": "sentence/c/S-cross.mp4"
+  },
+  {
+    "count": "4286",
+    "id": "494",
+    "text": "那家店湧入了許多人潮",
+    "sign_animation": "sentence/c/S-crowd_into.mp4"
+  },
+  {
+    "count": "4287",
+    "id": "495",
+    "text": "早上搭公車的人很多很擠",
+    "sign_animation": "sentence/c/S-crowded.mp4"
+  },
+  {
+    "count": "4288",
+    "id": "497",
+    "text": "他哭了",
+    "sign_animation": "sentence/c/S-cry_a.mp4"
+  },
+  {
+    "count": "4289",
+    "id": "499",
+    "text": "孩子的教育不能等",
+    "sign_animation": "sentence/c/S-cultivate.mp4"
+  },
+  {
+    "count": "4290",
+    "id": "503",
+    "text": "我第一次出國，對於所看到的一 切事物都很好奇",
+    "sign_animation": "sentence/c/S-curious.mp4"
+  },
+  {
+    "count": "4291",
+    "id": "507",
+    "text": "剛剛接到學校電話，兒子又逃學了",
+    "sign_animation": "sentence/c/S-cut_class_b.mp4"
+  },
+  {
+    "count": "4292",
+    "id": "508",
+    "text": "等車應該依序排隊，不可插隊",
+    "sign_animation": "sentence/c/S-cut_in_a_line.mp4"
+  },
+  {
+    "count": "4293",
+    "id": "511",
+    "text": "每年換季期間，百貨公司都會降價",
+    "sign_animation": "sentence/c/S-cut_price_b.mp4"
+  },
+  {
+    "count": "4294",
+    "id": "513",
+    "text": "跳舞是好的運動",
+    "sign_animation": "sentence/d/S-dance_n.mp4"
+  },
+  {
+    "count": "4295",
+    "id": "524",
+    "text": "他與我辯論，往往勝利",
+    "sign_animation": "sentence/d/S-debate.mp4"
+  },
+  {
+    "count": "4296",
+    "id": "525",
+    "text": "保持口腔乾淨是預防蛀牙最好的方法",
+    "sign_animation": "sentence/d/S-decayed_tooth.mp4"
+  },
+  {
+    "count": "4297",
+    "id": "530",
+    "text": "這個洞穴很深",
+    "sign_animation": "sentence/d/S-deep_b.mp4"
+  },
+  {
+    "count": "4298",
+    "id": "534",
+    "text": "我決定努力學習手語",
+    "sign_animation": "sentence/d/S-definite.mp4"
+  },
+  {
+    "count": "4299",
+    "id": "534",
+    "text": "你一定要幫我",
+    "sign_animation": "sentence/d/S-definite.mp4"
+  },
+  {
+    "count": "4300",
+    "id": "534",
+    "text": "他想一定要去美國讀書",
+    "sign_animation": "sentence/d/S-definite.mp4"
+  },
+  {
+    "count": "4301",
+    "id": "535",
+    "text": "台灣製造的機器品質很好",
+    "sign_animation": "sentence/d/S-degree.mp4"
+  },
+  {
+    "count": "4302",
+    "id": "538",
+    "text": "他送我一張卡片",
+    "sign_animation": "sentence/d/S-deliver.mp4"
+  },
+  {
+    "count": "4303",
+    "id": "543",
+    "text": "這座橋的外型設計很好看又有創意",
+    "sign_animation": "sentence/d/S-design.mp4"
+  },
+  {
+    "count": "4304",
+    "id": "548",
+    "text": "不懂的字要勤查字典",
+    "sign_animation": "sentence/d/S-dictionary.mp4"
+  },
+  {
+    "count": "4305",
+    "id": "551",
+    "text": "我的狗昨天死了",
+    "sign_animation": "sentence/d/S-die_a.mp4"
+  },
+  {
+    "count": "4306",
+    "id": "553",
+    "text": "我們的飲食習慣和國外不一樣",
+    "sign_animation": "sentence/d/S-different.mp4"
+  },
+  {
+    "count": "4307",
+    "id": "554",
+    "text": "遇到困難時，我可以幫你",
+    "sign_animation": "sentence/d/S-difficult.mp4"
+  },
+  {
+    "count": "4308",
+    "id": "554",
+    "text": "昨天的考試很難",
+    "sign_animation": "sentence/d/S-difficult.mp4"
+  },
+  {
+    "count": "4309",
+    "id": "555",
+    "text": "這種食物容易消化，適合老人吃。",
+    "sign_animation": "sentence/d/S-digest.mp4"
+  },
+  {
+    "count": "4310",
+    "id": "556",
+    "text": "妹妹正在用功念書",
+    "sign_animation": "sentence/i/S-industrious_a.mp4"
+  },
+  {
+    "count": "4311",
+    "id": "559",
+    "text": "你的手很髒",
+    "sign_animation": "sentence/d/S-dirty.mp4"
+  },
+  {
+    "count": "4312",
+    "id": "561",
+    "text": "郊遊計畫因下雨而取消，令人失望難過",
+    "sign_animation": "sentence/d/S-disappointed.mp4"
+  },
+  {
+    "count": "4313",
+    "id": "564",
+    "text": "不要難過，我會陪你",
+    "sign_animation": "sentence/d/S-discouraged.mp4"
+  },
+  {
+    "count": "4314",
+    "id": "564",
+    "text": "你不要因為碰到小小的阻礙而灰心",
+    "sign_animation": "sentence/d/S-discouraged.mp4"
+  },
+  {
+    "count": "4315",
+    "id": "569",
+    "text": "我們在討論畢業旅行的事情",
+    "sign_animation": "sentence/d/S-discuss.mp4"
+  },
+  {
+    "count": "4316",
+    "id": "571",
+    "text": "我怕兔子，看到兔子會討厭 ",
+    "sign_animation": "sentence/d/S-disagreeable_s.mp4"
+  },
+  {
+    "count": "4317",
+    "id": "572",
+    "text": "弟弟喜歡收集盤子",
+    "sign_animation": "sentence/d/S-dish.mp4"
+  },
+  {
+    "count": "4318",
+    "id": "574",
+    "text": "解散後，大家自行回去",
+    "sign_animation": "sentence/d/S-dismiss.mp4"
+  },
+  {
+    "count": "4319",
+    "id": "575",
+    "text": "下課去商店買飲料",
+    "sign_animation": "sentence/d/S-dismiss_class.mp4"
+  },
+  {
+    "count": "4320",
+    "id": "583",
+    "text": "他們倆剛離婚",
+    "sign_animation": "sentence/d/S-divorce.mp4"
+  },
+  {
+    "count": "4321",
+    "id": "584",
+    "text": "頭暈是高血壓的症狀之一",
+    "sign_animation": "sentence/d/S-dizzy_a.mp4"
+  },
+  {
+    "count": "4322",
+    "id": "585",
+    "text": "工作要認真",
+    "sign_animation": "sentence/d/S-do.mp4"
+  },
+  {
+    "count": "4323",
+    "id": "586",
+    "text": "這件事和他沒關係，你不能牽扯到他",
+    "sign_animation": "sentence/d/S-does_not_matter.mp4"
+  },
+  {
+    "count": "4324",
+    "id": "588",
+    "text": "這隻狗很瘦",
+    "sign_animation": "sentence/d/S-dog.mp4"
+  },
+  {
+    "count": "4325",
+    "id": "600",
+    "text": "門上有很多裝飾",
+    "sign_animation": "sentence/d/S-door.mp4"
+  },
+  {
+    "count": "4326",
+    "id": "616",
+    "text": "我想喝汽水，請你幫我去買好嗎",
+    "sign_animation": "sentence/d/S-drink.mp4"
+  },
+  {
+    "count": "4327",
+    "id": "617",
+    "text": "開車需要有駕照",
+    "sign_animation": "sentence/d/S-drive.mp4"
+  },
+  {
+    "count": "4328",
+    "id": "623",
+    "text": "我口渴，要喝水",
+    "sign_animation": "sentence/d/S-dry_a.mp4"
+  },
+  {
+    "count": "4329",
+    "id": "646",
+    "text": "用電鍋煮蛋很簡單",
+    "sign_animation": "sentence/e/S-easy_a.mp4"
+  },
+  {
+    "count": "4330",
+    "id": "646",
+    "text": "這張考卷很簡單",
+    "sign_animation": "sentence/e/S-easy_a.mp4"
+  },
+  {
+    "count": "4331",
+    "id": "648",
+    "text": "他包的餃子很好吃",
+    "sign_animation": "sentence/e/S-eat.mp4"
+  },
+  {
+    "count": "4332",
+    "id": "649",
+    "text": "你今天晚上要回家吃飯嗎",
+    "sign_animation": "sentence/e/S-eat_rice.mp4"
+  },
+  {
+    "count": "4333",
+    "id": "653",
+    "text": "他努力得到第一名",
+    "sign_animation": "sentence/e/S-effort.mp4"
+  },
+  {
+    "count": "4334",
+    "id": "657",
+    "text": "他常說話說得太自大，你可別相信 ",
+    "sign_animation": "sentence/e/S-egoistic.mp4"
+  },
+  {
+    "count": "4335",
+    "id": "668",
+    "text": "媽媽抱抱小孩",
+    "sign_animation": "sentence/e/S-embrace.mp4"
+  },
+  {
+    "count": "4336",
+    "id": "672",
+    "text": "家裡沒有人",
+    "sign_animation": "sentence/e/S-empty_b.mp4"
+  },
+  {
+    "count": "4337",
+    "id": "677",
+    "text": "最近又發生以色列和巴勒斯坦國家衝突",
+    "sign_animation": "sentence/e/S-enemy.mp4"
+  },
+  {
+    "count": "4338",
+    "id": "684",
+    "text": "把英文學好很重要",
+    "sign_animation": "sentence/e/S-english.mp4"
+  },
+  {
+    "count": "4339",
+    "id": "692",
+    "text": "環境保護，人人有責",
+    "sign_animation": "sentence/e/S-environment.mp4"
+  },
+  {
+    "count": "4340",
+    "id": "703",
+    "text": "努力學習是為了有更好的將來",
+    "sign_animation": "sentence/e/S-even_more.mp4"
+  },
+  {
+    "count": "4341",
+    "id": "704",
+    "text": "夏天的夜晚很熱",
+    "sign_animation": "sentence/e/S-evening.mp4"
+  },
+  {
+    "count": "4342",
+    "id": "704",
+    "text": "今天晚上特別安靜",
+    "sign_animation": "sentence/e/S-evening.mp4"
+  },
+  {
+    "count": "4343",
+    "id": "706",
+    "text": "每次出門都要帶錢包",
+    "sign_animation": "sentence/e/S-every.mp4"
+  },
+  {
+    "count": "4344",
+    "id": "707",
+    "text": "每天游泳對身體很好",
+    "sign_animation": "sentence/e/S-everyday.mp4"
+  },
+  {
+    "count": "4345",
+    "id": "715",
+    "text": "出國旅行前，要記得換一些外幣",
+    "sign_animation": "sentence/e/S-exchange_b.mp4"
+  },
+  {
+    "count": "4346",
+    "id": "719",
+    "text": "媽媽不允許我出去玩",
+    "sign_animation": "sentence/e/S-exit.mp4"
+  },
+  {
+    "count": "4347",
+    "id": "721",
+    "text": "比較貴的東西品質一定比較好",
+    "sign_animation": "sentence/e/S-expensive_a.mp4"
+  },
+  {
+    "count": "4348",
+    "id": "726",
+    "text": "他開始解釋遲到的理由了",
+    "sign_animation": "sentence/e/S-explain.mp4"
+  },
+  {
+    "count": "4349",
+    "id": "732",
+    "text": "你的眼睛怎麼腫腫的",
+    "sign_animation": "sentence/e/S-eye.mp4"
+  },
+  {
+    "count": "4350",
+    "id": "735",
+    "text": "他的臉上有疤痕",
+    "sign_animation": "sentence/f/S-face.mp4"
+  },
+  {
+    "count": "4351",
+    "id": "739",
+    "text": "昨天的棒球比賽，結果我們輸了",
+    "sign_animation": "sentence/f/S-fail_b.mp4"
+  },
+  {
+    "count": "4352",
+    "id": "739",
+    "text": "我比賽輸了",
+    "sign_animation": "sentence/f/S-fail_b.mp4"
+  },
+  {
+    "count": "4353",
+    "id": "740",
+    "text": "你最好不要失約",
+    "sign_animation": "sentence/f/S-fail_to_keep_an_appointment.mp4"
+  },
+  {
+    "count": "4354",
+    "id": "750",
+    "text": "現在網路上有很多騙人的假新聞",
+    "sign_animation": "sentence/f/S-false.mp4"
+  },
+  {
+    "count": "4355",
+    "id": "751",
+    "text": "我來自三代同堂的大家庭",
+    "sign_animation": "sentence/f/S-family.mp4"
+  },
+  {
+    "count": "4356",
+    "id": "752",
+    "text": "他爸爸是有名的演員",
+    "sign_animation": "sentence/f/S-famous.mp4"
+  },
+  {
+    "count": "4357",
+    "id": "756",
+    "text": "農夫用水管澆農田",
+    "sign_animation": "sentence/f/S-farmer.mp4"
+  },
+  {
+    "count": "4358",
+    "id": "761",
+    "text": "他跑得很快",
+    "sign_animation": "sentence/f/S-fast_s.mp4"
+  },
+  {
+    "count": "4359",
+    "id": "773",
+    "text": "養育孩子是很辛苦",
+    "sign_animation": "sentence/f/S-feed_b.mp4"
+  },
+  {
+    "count": "4360",
+    "id": "776",
+    "text": "男性與女性應該平等",
+    "sign_animation": "sentence/f/S-female.mp4"
+  },
+  {
+    "count": "4361",
+    "id": "782",
+    "text": "他們倆工作忙，很少見面",
+    "sign_animation": "sentence/f/S-few.mp4"
+  },
+  {
+    "count": "4362",
+    "id": "782",
+    "text": "這裡的水果很少",
+    "sign_animation": "sentence/f/S-few.mp4"
+  },
+  {
+    "count": "4363",
+    "id": "782",
+    "text": "我買了一點麵包",
+    "sign_animation": "sentence/f/S-few.mp4"
+  },
+  {
+    "count": "4364",
+    "id": "795",
+    "text": "表演結束之後來找我",
+    "sign_animation": "sentence/f/S-finish.mp4"
+  },
+  {
+    "count": "4365",
+    "id": "795",
+    "text": "我可以做完",
+    "sign_animation": "sentence/f/S-finish.mp4"
+  },
+  {
+    "count": "4366",
+    "id": "795",
+    "text": "她剛剛完成了博士論文\n",
+    "sign_animation": "sentence/f/S-finish.mp4"
+  },
+  {
+    "count": "4367",
+    "id": "796",
+    "text": "澳洲的一片森林被大火燒掉了",
+    "sign_animation": "sentence/f/S-fire.mp4"
+  },
+  {
+    "count": "4368",
+    "id": "819",
+    "text": "日本的櫻花全都開花了",
+    "sign_animation": "sentence/f/S-flower.mp4"
+  },
+  {
+    "count": "4369",
+    "id": "828",
+    "text": "工作還沒完成，繼續把它做完",
+    "sign_animation": "sentence/f/S-for.mp4"
+  },
+  {
+    "count": "4370",
+    "id": "828",
+    "text": "連續的大雨使得多處山崩",
+    "sign_animation": "sentence/f/S-for.mp4"
+  },
+  {
+    "count": "4371",
+    "id": "829",
+    "text": "他對外國的生活充滿嚮往",
+    "sign_animation": "sentence/f/S-foreign_country.mp4"
+  },
+  {
+    "count": "4372",
+    "id": "830",
+    "text": "我們要保護森林",
+    "sign_animation": "sentence/f/S-forest.mp4"
+  },
+  {
+    "count": "4373",
+    "id": "831",
+    "text": "她忘了帶錢包出門",
+    "sign_animation": "sentence/f/S-forget.mp4"
+  },
+  {
+    "count": "4374",
+    "id": "841",
+    "text": "這裡有個怪味道",
+    "sign_animation": "sentence/f/S-fragrant.mp4"
+  },
+  {
+    "count": "4375",
+    "id": "841",
+    "text": "這花聞起來好香",
+    "sign_animation": "sentence/f/S-fragrant.mp4"
+  },
+  {
+    "count": "4376",
+    "id": "841",
+    "text": "這杯咖啡聞起來很香",
+    "sign_animation": "sentence/f/S-fragrant.mp4"
+  },
+  {
+    "count": "4377",
+    "id": "849",
+    "text": "他真的是我朋友 ( 他是一個真誠的朋友)",
+    "sign_animation": "sentence/f/S-friend.mp4"
+  },
+  {
+    "count": "4378",
+    "id": "849",
+    "text": "我的朋友在日本",
+    "sign_animation": "sentence/f/S-friend.mp4"
+  },
+  {
+    "count": "4379",
+    "id": "852",
+    "text": "所有座位都滿了",
+    "sign_animation": "sentence/f/S-full_a.mp4"
+  },
+  {
+    "count": "4380",
+    "id": "853",
+    "text": "我吃飽了",
+    "sign_animation": "sentence/f/S-full_b.mp4"
+  },
+  {
+    "count": "4381",
+    "id": "856",
+    "text": "未來移民到外星球是有可能的",
+    "sign_animation": "sentence/f/S-future_b.mp4"
+  },
+  {
+    "count": "4382",
+    "id": "882",
+    "text": "我的眼鏡斷掉了",
+    "sign_animation": "sentence/g/S-glasses.mp4"
+  },
+  {
+    "count": "4383",
+    "id": "887",
+    "text": "他想去英國旅行",
+    "sign_animation": "sentence/g/S-go_b.mp4"
+  },
+  {
+    "count": "4384",
+    "id": "887",
+    "text": "爸爸帶我去高雄玩",
+    "sign_animation": "sentence/g/S-go_b.mp4"
+  },
+  {
+    "count": "4385",
+    "id": "893",
+    "text": "下班之後要去健身房運動",
+    "sign_animation": "sentence/g/S-go_off_work.mp4"
+  },
+  {
+    "count": "4386",
+    "id": "896",
+    "text": "他唸書的目的很明確",
+    "sign_animation": "sentence/g/S-goal.mp4"
+  },
+  {
+    "count": "4387",
+    "id": "897",
+    "text": "那隻羊是黑色的",
+    "sign_animation": "sentence/g/S-goat.mp4"
+  },
+  {
+    "count": "4388",
+    "id": "899",
+    "text": "金是一種貴重金屬",
+    "sign_animation": "sentence/g/S-gold.mp4"
+  },
+  {
+    "count": "4389",
+    "id": "900",
+    "text": "早安，你好",
+    "sign_animation": "sentence/g/S-good_a.mp4"
+  },
+  {
+    "count": "4390",
+    "id": "915",
+    "text": "我今年六月高中畢業",
+    "sign_animation": "sentence/g/S-graduate.mp4"
+  },
+  {
+    "count": "4391",
+    "id": "920",
+    "text": "爺爺喜歡爬山",
+    "sign_animation": "sentence/g/S-grandfather.mp4"
+  },
+  {
+    "count": "4392",
+    "id": "921",
+    "text": "這是奶奶最愛的佛珠",
+    "sign_animation": "sentence/g/S-grandmother.mp4"
+  },
+  {
+    "count": "4393",
+    "id": "923",
+    "text": "葡萄不是長在樹上",
+    "sign_animation": "sentence/g/S-grape.mp4"
+  },
+  {
+    "count": "4394",
+    "id": "928",
+    "text": "多看綠色植物對眼睛有益",
+    "sign_animation": "sentence/g/S-green.mp4"
+  },
+  {
+    "count": "4395",
+    "id": "931",
+    "text": "我長大以後想當老師",
+    "sign_animation": "sentence/g/S-grow_up.mp4"
+  },
+  {
+    "count": "4396",
+    "id": "932",
+    "text": "你在這裡等我",
+    "sign_animation": "sentence/g/S-guard_a.mp4"
+  },
+  {
+    "count": "4397",
+    "id": "938",
+    "text": "他有賴床的習慣",
+    "sign_animation": "sentence/h/S-habit_n.mp4"
+  },
+  {
+    "count": "4398",
+    "id": "938",
+    "text": "每個國家都有他們的習慣",
+    "sign_animation": "sentence/h/S-habit_n.mp4"
+  },
+  {
+    "count": "4399",
+    "id": "940",
+    "text": "他把頭髮染成金色",
+    "sign_animation": "sentence/h/S-hair_a.mp4"
+  },
+  {
+    "count": "4400",
+    "id": "948",
+    "text": "你喜歡吃漢堡嗎",
+    "sign_animation": "sentence/h/S-hamburger.mp4"
+  },
+  {
+    "count": "4401",
+    "id": "953",
+    "text": "他認真的樣子很帥",
+    "sign_animation": "sentence/h/S-handsome.mp4"
+  },
+  {
+    "count": "4402",
+    "id": "958",
+    "text": "我很快樂",
+    "sign_animation": "sentence/h/S-happy.mp4"
+  },
+  {
+    "count": "4403",
+    "id": "967",
+    "text": "我沒有錢",
+    "sign_animation": "sentence/h/S-havent.mp4"
+  },
+  {
+    "count": "4404",
+    "id": "978",
+    "text": "校長是個年輕人",
+    "sign_animation": "sentence/h/S-head_of_school.mp4"
+  },
+  {
+    "count": "4405",
+    "id": "980",
+    "text": "多運動可以保持健康",
+    "sign_animation": "sentence/h/S-health_a.mp4"
+  },
+  {
+    "count": "4406",
+    "id": "980",
+    "text": "一天一個蘋果，身體健康，不用去看醫生",
+    "sign_animation": "sentence/h/S-health_a.mp4"
+  },
+  {
+    "count": "4407",
+    "id": "982",
+    "text": "聽音樂是休閒之一",
+    "sign_animation": "sentence/h/S-hear_b.mp4"
+  },
+  {
+    "count": "4408",
+    "id": "985",
+    "text": "我的朋友心臟不好",
+    "sign_animation": "sentence/h/S-heart_b.mp4"
+  },
+  {
+    "count": "4409",
+    "id": "986",
+    "text": "女人的體重是秘密",
+    "sign_animation": "sentence/h/S-heavy.mp4"
+  },
+  {
+    "count": "4410",
+    "id": "987",
+    "text": "請幫我拿東西過來",
+    "sign_animation": "sentence/h/S-help_n.mp4"
+  },
+  {
+    "count": "4411",
+    "id": "996",
+    "text": "他的狗被車撞了，他著急得哭了",
+    "sign_animation": "sentence/h/S-his_or_her.mp4"
+  },
+  {
+    "count": "4412",
+    "id": "1008",
+    "text": "我以後希望當老師",
+    "sign_animation": "sentence/h/S-hope.mp4"
+  },
+  {
+    "count": "4413",
+    "id": "1008",
+    "text": "希望明天是晴天",
+    "sign_animation": "sentence/h/S-hope.mp4"
+  },
+  {
+    "count": "4414",
+    "id": "1010",
+    "text": "國王有很多匹馬",
+    "sign_animation": "sentence/h/S-horse.mp4"
+  },
+  {
+    "count": "4415",
+    "id": "1012",
+    "text": "她昨天離開醫院",
+    "sign_animation": "sentence/h/S-hospital_b.mp4"
+  },
+  {
+    "count": "4416",
+    "id": "1014",
+    "text": "今天天氣很熱",
+    "sign_animation": "sentence/h/S-hot.mp4"
+  },
+  {
+    "count": "4417",
+    "id": "1014",
+    "text": "夏天蚊蟲很多",
+    "sign_animation": "sentence/h/S-hot.mp4"
+  },
+  {
+    "count": "4418",
+    "id": "1018",
+    "text": "這間屋子很漂亮",
+    "sign_animation": "sentence/h/S-house_a.mp4"
+  },
+  {
+    "count": "4419",
+    "id": "1033",
+    "text": "姊姊已經30歲了",
+    "sign_animation": "sentence/h/S-how_old.mp4"
+  },
+  {
+    "count": "4420",
+    "id": "1033",
+    "text": "他年紀大了身體不好",
+    "sign_animation": "sentence/h/S-how_old.mp4"
+  },
+  {
+    "count": "4421",
+    "id": "1050",
+    "text": "請你來我家玩",
+    "sign_animation": "sentence/i/S-i_b.mp4"
+  },
+  {
+    "count": "4422",
+    "id": "1050",
+    "text": "我是學生",
+    "sign_animation": "sentence/i/S-i_b.mp4"
+  },
+  {
+    "count": "4423",
+    "id": "1058",
+    "text": "他每天游手好閒，大家都輕視他",
+    "sign_animation": "sentence/i/S-idle.mp4"
+  },
+  {
+    "count": "4424",
+    "id": "1060",
+    "text": "如果你不出席會議，記得要跟我說",
+    "sign_animation": "sentence/i/S-if.mp4"
+  },
+  {
+    "count": "4425",
+    "id": "1066",
+    "text": "努力學習是為了有更好的將來",
+    "sign_animation": "sentence/i/S-imitate.mp4"
+  },
+  {
+    "count": "4426",
+    "id": "1066",
+    "text": "他正努力學習如何當爸爸",
+    "sign_animation": "sentence/i/S-imitate.mp4"
+  },
+  {
+    "count": "4427",
+    "id": "1067",
+    "text": "爸爸催促我立刻上床睡覺",
+    "sign_animation": "sentence/i/S-immediately.mp4"
+  },
+  {
+    "count": "4428",
+    "id": "1067",
+    "text": "爸爸要我馬上回家",
+    "sign_animation": "sentence/i/S-immediately.mp4"
+  },
+  {
+    "count": "4429",
+    "id": "1082",
+    "text": "也許明天會下雨",
+    "sign_animation": "sentence/i/S-indefinite.mp4"
+  },
+  {
+    "count": "4430",
+    "id": "1100",
+    "text": "中場休息三十分鐘",
+    "sign_animation": "sentence/i/S-interfere.mp4"
+  },
+  {
+    "count": "4431",
+    "id": "1103",
+    "text": "請自我介紹一下",
+    "sign_animation": "sentence/i/S-introduce.mp4"
+  },
+  {
+    "count": "4432",
+    "id": "1109",
+    "text": "到台灣旅行，行李要經過檢查",
+    "sign_animation": "sentence/i/S-investigate.mp4"
+  },
+  {
+    "count": "4433",
+    "id": "1110",
+    "text": "我答應他的邀請",
+    "sign_animation": "sentence/i/S-invite.mp4"
+  },
+  {
+    "count": "4434",
+    "id": "1131",
+    "text": "貓咪跳上了屋頂",
+    "sign_animation": "sentence/j/S-jump.mp4"
+  },
+  {
+    "count": "4435",
+    "id": "1133",
+    "text": "老師的主要工作是教學",
+    "sign_animation": "sentence/j/S-just.mp4"
+  },
+  {
+    "count": "4436",
+    "id": "1142",
+    "text": "我的鑰匙不見了",
+    "sign_animation": "sentence/k/S-key.mp4"
+  },
+  {
+    "count": "4437",
+    "id": "1145",
+    "text": "殺人是犯法的",
+    "sign_animation": "sentence/k/S-kill_a.mp4"
+  },
+  {
+    "count": "4438",
+    "id": "1158",
+    "text": "我會包水餃",
+    "sign_animation": "sentence/k/S-know_n.mp4"
+  },
+  {
+    "count": "4439",
+    "id": "1158",
+    "text": "你知道我的眼鏡在哪裡嗎?",
+    "sign_animation": "sentence/k/S-know_n.mp4"
+  },
+  {
+    "count": "4440",
+    "id": "1159",
+    "text": "你認識我的老師嗎?",
+    "sign_animation": "sentence/k/S-know_s_2.mp4"
+  },
+  {
+    "count": "4441",
+    "id": "1159",
+    "text": "你認識我嗎?",
+    "sign_animation": "sentence/k/S-know_s_2.mp4"
+  },
+  {
+    "count": "4442",
+    "id": "1160",
+    "text": "知識就是力量",
+    "sign_animation": "sentence/k/S-knowledge.mp4"
+  },
+  {
+    "count": "4443",
+    "id": "1168",
+    "text": "學校裡有一座人工湖",
+    "sign_animation": "sentence/l/S-lake.mp4"
+  },
+  {
+    "count": "4444",
+    "id": "1169",
+    "text": "我看到坵蚓從土裡鑽出來",
+    "sign_animation": "sentence/s/S-land_soil.mp4"
+  },
+  {
+    "count": "4445",
+    "id": "1169",
+    "text": "這個地方的土很肥沃",
+    "sign_animation": "sentence/s/S-land_soil.mp4"
+  },
+  {
+    "count": "4446",
+    "id": "1171",
+    "text": "我會三種語言",
+    "sign_animation": "sentence/l/S-language.mp4"
+  },
+  {
+    "count": "4447",
+    "id": "1180",
+    "text": "那個笑話，讓他笑了五分鐘",
+    "sign_animation": "sentence/l/S-laugh.mp4"
+  },
+  {
+    "count": "4448",
+    "id": "1201",
+    "text": "我家離圖書館很近",
+    "sign_animation": "sentence/l/S-library.mp4"
+  },
+  {
+    "count": "4449",
+    "id": "1204",
+    "text": "剛出生的嬰兒體重很輕",
+    "sign_animation": "sentence/l/S-light_a.mp4"
+  },
+  {
+    "count": "4450",
+    "id": "1208",
+    "text": "我喜歡聽音樂",
+    "sign_animation": "sentence/l/S-like_n.mp4"
+  },
+  {
+    "count": "4451",
+    "id": "1208",
+    "text": "我喜歡你",
+    "sign_animation": "sentence/l/S-like_n.mp4"
+  },
+  {
+    "count": "4452",
+    "id": "1208",
+    "text": "那個女生喜歡看書",
+    "sign_animation": "sentence/l/S-like_n.mp4"
+  },
+  {
+    "count": "4453",
+    "id": "1213",
+    "text": "喝太多酒對身體不好",
+    "sign_animation": "sentence/l/S-liquor_n.mp4"
+  },
+  {
+    "count": "4454",
+    "id": "1216",
+    "text": "我住在台北",
+    "sign_animation": "sentence/l/S-live_a.mp4"
+  },
+  {
+    "count": "4455",
+    "id": "1224",
+    "text": "一個人在家好無聊",
+    "sign_animation": "sentence/l/S-lonely_a.mp4"
+  },
+  {
+    "count": "4456",
+    "id": "1225",
+    "text": "他寫功課，因為不懂，所以寫了很久",
+    "sign_animation": "sentence/l/S-long.mp4"
+  },
+  {
+    "count": "4457",
+    "id": "1231",
+    "text": "請幫我找一下同學",
+    "sign_animation": "sentence/l/S-look_for.mp4"
+  },
+  {
+    "count": "4458",
+    "id": "1240",
+    "text": "爸爸很愛媽媽",
+    "sign_animation": "sentence/l/S-love.mp4"
+  },
+  {
+    "count": "4459",
+    "id": "1255",
+    "text": "這台機車性能很好",
+    "sign_animation": "sentence/m/S-machine.mp4"
+  },
+  {
+    "count": "4460",
+    "id": "1265",
+    "text": "姐姐出門前會先化妝",
+    "sign_animation": "sentence/m/S-make_up.mp4"
+  },
+  {
+    "count": "4461",
+    "id": "1269",
+    "text": "陳先生很喜歡那位小姐",
+    "sign_animation": "sentence/m/S-man.mp4"
+  },
+  {
+    "count": "4462",
+    "id": "1269",
+    "text": "我不認識那個男生",
+    "sign_animation": "sentence/m/S-man.mp4"
+  },
+  {
+    "count": "4463",
+    "id": "1277",
+    "text": "他有許多煩惱的事情",
+    "sign_animation": "sentence/m/S-many.mp4"
+  },
+  {
+    "count": "4464",
+    "id": "1286",
+    "text": "我們明年要結婚了",
+    "sign_animation": "sentence/m/S-marry.mp4"
+  },
+  {
+    "count": "4465",
+    "id": "1286",
+    "text": "你願意和我結婚嗎?",
+    "sign_animation": "sentence/m/S-marry.mp4"
+  },
+  {
+    "count": "4466",
+    "id": "1290",
+    "text": "他的房間很亂",
+    "sign_animation": "sentence/m/S-mass_a.mp4"
+  },
+  {
+    "count": "4467",
+    "id": "1298",
+    "text": "哥哥教弟弟寫數學功課",
+    "sign_animation": "sentence/m/S-math.mp4"
+  },
+  {
+    "count": "4468",
+    "id": "1299",
+    "text": "她可以跟我們一起去旅遊嗎?",
+    "sign_animation": "sentence/m/S-may.mp4"
+  },
+  {
+    "count": "4469",
+    "id": "1299",
+    "text": "他可以完成所有事情",
+    "sign_animation": "sentence/m/S-may.mp4"
+  },
+  {
+    "count": "4470",
+    "id": "1309",
+    "text": "等一下去藥局領藥",
+    "sign_animation": "sentence/m/S-medicine.mp4"
+  },
+  {
+    "count": "4471",
+    "id": "1311",
+    "text": "我們下次再見面",
+    "sign_animation": "sentence/m/S-meet_b.mp4"
+  },
+  {
+    "count": "4472",
+    "id": "1313",
+    "text": "每個星期一都要開會",
+    "sign_animation": "sentence/m/S-meeting.mp4"
+  },
+  {
+    "count": "4473",
+    "id": "1313",
+    "text": "這次會議因人數過多而取消",
+    "sign_animation": "sentence/m/S-meeting.mp4"
+  },
+  {
+    "count": "4474",
+    "id": "1331",
+    "text": "嬰兒要喝奶",
+    "sign_animation": "sentence/m/S-milk_s.mp4"
+  },
+  {
+    "count": "4475",
+    "id": "1338",
+    "text": "考試時要仔細，別看錯題目 ",
+    "sign_animation": "sentence/m/S-mistake.mp4"
+  },
+  {
+    "count": "4476",
+    "id": "1345",
+    "text": "出門記得要帶錢",
+    "sign_animation": "sentence/m/S-money.mp4"
+  },
+  {
+    "count": "4477",
+    "id": "1357",
+    "text": "媽媽是全天下最好的",
+    "sign_animation": "sentence/m/S-mother.mp4"
+  },
+  {
+    "count": "4478",
+    "id": "1359",
+    "text": "昨天阿姨來我家玩",
+    "sign_animation": "sentence/m/S-mothers_sister.mp4"
+  },
+  {
+    "count": "4479",
+    "id": "1360",
+    "text": "一台機車要價五萬，很貴",
+    "sign_animation": "sentence/m/S-motorcycle.mp4"
+  },
+  {
+    "count": "4480",
+    "id": "1364",
+    "text": "我上禮拜跟爸爸去爬山",
+    "sign_animation": "sentence/m/S-mountain_climbing_a.mp4"
+  },
+  {
+    "count": "4481",
+    "id": "1370",
+    "text": "要隨時保持口腔清潔",
+    "sign_animation": "sentence/m/S-mouth.mp4"
+  },
+  {
+    "count": "4482",
+    "id": "1371",
+    "text": "登山是其中一種戶外活動",
+    "sign_animation": "sentence/m/S-move.mp4"
+  },
+  {
+    "count": "4483",
+    "id": "1372",
+    "text": "看電影時請保持安靜",
+    "sign_animation": "sentence/m/S-movie.mp4"
+  },
+  {
+    "count": "4484",
+    "id": "1375",
+    "text": "搬家很辛苦",
+    "sign_animation": "sentence/m/S-moving_to_a_different_house_b.mp4"
+  },
+  {
+    "count": "4485",
+    "id": "1383",
+    "text": "互相關心是婚姻幸福的關鍵",
+    "sign_animation": "sentence/m/S-mutual.mp4"
+  },
+  {
+    "count": "4486",
+    "id": "1389",
+    "text": "他的名字看起來很不錯 ",
+    "sign_animation": "sentence/n/S-name_s.mp4"
+  },
+  {
+    "count": "4487",
+    "id": "1402",
+    "text": "隔壁鄰居是個老先生",
+    "sign_animation": "sentence/n/S-neighbor.mp4"
+  },
+  {
+    "count": "4488",
+    "id": "1403",
+    "text": "快輪到他表演了，他很緊張",
+    "sign_animation": "sentence/n/S-nervous.mp4"
+  },
+  {
+    "count": "4489",
+    "id": "1404",
+    "text": "快輪到他表演了，他很緊張",
+    "sign_animation": "sentence/n/S-nervous_b.mp4"
+  },
+  {
+    "count": "4490",
+    "id": "1410",
+    "text": "這個背包是新的",
+    "sign_animation": "sentence/n/S-new.mp4"
+  },
+  {
+    "count": "4491",
+    "id": "1414",
+    "text": "我要看報紙",
+    "sign_animation": "sentence/n/S-newspaper.mp4"
+  },
+  {
+    "count": "4492",
+    "id": "1415",
+    "text": "下一站要下車",
+    "sign_animation": "sentence/n/S-next.mp4"
+  },
+  {
+    "count": "4493",
+    "id": "1419",
+    "text": "明年我要去美國",
+    "sign_animation": "sentence/n/S-next_year.mp4"
+  },
+  {
+    "count": "4494",
+    "id": "1442",
+    "text": "你要吃麵還是吃飯？",
+    "sign_animation": "sentence/n/S-noodles.mp4"
+  },
+  {
+    "count": "4495",
+    "id": "1452",
+    "text": "這雞肉飯勉強還可以",
+    "sign_animation": "sentence/n/S-not_bad.mp4"
+  },
+  {
+    "count": "4496",
+    "id": "1465",
+    "text": "每個地方都有好人和壞人",
+    "sign_animation": "sentence/n/S-not_good.mp4"
+  },
+  {
+    "count": "4497",
+    "id": "1478",
+    "text": "今天是星期幾呢?",
+    "sign_animation": "sentence/n/S-now.mp4"
+  },
+  {
+    "count": "4498",
+    "id": "1478",
+    "text": "現在是幾點呢?",
+    "sign_animation": "sentence/n/S-now.mp4"
+  },
+  {
+    "count": "4499",
+    "id": "1479",
+    "text": "今年端午節媽媽要包粽子",
+    "sign_animation": "sentence/n/S-number_a.mp4"
+  },
+  {
+    "count": "4500",
+    "id": "1480",
+    "text": "你的車牌號碼是多少",
+    "sign_animation": "sentence/n/S-number_b.mp4"
+  },
+  {
+    "count": "4501",
+    "id": "1482",
+    "text": "台灣護士的專業能力很強",
+    "sign_animation": "sentence/n/S-nurse.mp4"
+  },
+  {
+    "count": "4502",
+    "id": "1483",
+    "text": "肥胖對身體不好",
+    "sign_animation": "sentence/o/S-obesity_a.mp4"
+  },
+  {
+    "count": "4503",
+    "id": "1484",
+    "text": "你變瘦了",
+    "sign_animation": "sentence/o/S-obesity_b.mp4"
+  },
+  {
+    "count": "4504",
+    "id": "1501",
+    "text": "辦公室請保持乾淨",
+    "sign_animation": "sentence/o/S-office_c.mp4"
+  },
+  {
+    "count": "4505",
+    "id": "1504",
+    "text": "他經常睡不著",
+    "sign_animation": "sentence/o/S-often_a.mp4"
+  },
+  {
+    "count": "4506",
+    "id": "1504",
+    "text": "我常常去跑步",
+    "sign_animation": "sentence/o/S-often_a.mp4"
+  },
+  {
+    "count": "4507",
+    "id": "1506",
+    "text": "炒菜時要用油",
+    "sign_animation": "sentence/o/S-oil_s.mp4"
+  },
+  {
+    "count": "4508",
+    "id": "1508",
+    "text": "他丟了許多舊報紙",
+    "sign_animation": "sentence/o/S-old_a.mp4"
+  },
+  {
+    "count": "4509",
+    "id": "1509",
+    "text": "那隻狗很老了",
+    "sign_animation": "sentence/o/S-old_b.mp4"
+  },
+  {
+    "count": "4510",
+    "id": "1512",
+    "text": "姊姊沒有男朋友",
+    "sign_animation": "sentence/o/S-older_sister.mp4"
+  },
+  {
+    "count": "4511",
+    "id": "1521",
+    "text": "我有一件裙子",
+    "sign_animation": "sentence/o/S-one.mp4"
+  },
+  {
+    "count": "4512",
+    "id": "1527",
+    "text": "爸爸一個鐘頭後就回來了",
+    "sign_animation": "sentence/o/S-one_hour_a.mp4"
+  },
+  {
+    "count": "4513",
+    "id": "1537",
+    "text": "這間教室只有我一個人",
+    "sign_animation": "sentence/o/S-only_one.mp4"
+  },
+  {
+    "count": "4514",
+    "id": "1541",
+    "text": "這件牛仔褲很緊",
+    "sign_animation": "sentence/o/S-oppressive.mp4"
+  },
+  {
+    "count": "4515",
+    "id": "1544",
+    "text": "我會三種語言",
+    "sign_animation": "sentence/o/S-oral.mp4"
+  },
+  {
+    "count": "4516",
+    "id": "1546",
+    "text": "橘子是我最喜歡的水果",
+    "sign_animation": "sentence/o/S-orange.mp4"
+  },
+  {
+    "count": "4517",
+    "id": "1555",
+    "text": "原來他是老師",
+    "sign_animation": "sentence/o/S-originally.mp4"
+  },
+  {
+    "count": "4518",
+    "id": "1557",
+    "text": "你還有其他的計劃嗎?",
+    "sign_animation": "sentence/o/S-out.mp4"
+  },
+  {
+    "count": "4519",
+    "id": "1557",
+    "text": "外面的天氣不錯",
+    "sign_animation": "sentence/o/S-out.mp4"
+  },
+  {
+    "count": "4520",
+    "id": "1572",
+    "text": "我好想出去玩",
+    "sign_animation": "sentence/p/S-play.mp4"
+  },
+  {
+    "count": "4521",
+    "id": "1574",
+    "text": "這件褲子是名牌",
+    "sign_animation": "sentence/p/S-pants.mp4"
+  },
+  {
+    "count": "4522",
+    "id": "1581",
+    "text": "紅線不能停車",
+    "sign_animation": "sentence/p/S-parking.mp4"
+  },
+  {
+    "count": "4523",
+    "id": "1583",
+    "text": "我要參明天下午的會議",
+    "sign_animation": "sentence/p/S-participate.mp4"
+  },
+  {
+    "count": "4524",
+    "id": "1584",
+    "text": "他通過了重重考驗",
+    "sign_animation": "sentence/p/S-pass.mp4"
+  },
+  {
+    "count": "4525",
+    "id": "1586",
+    "text": "我以前很胖，現在變瘦了",
+    "sign_animation": "sentence/p/S-past.mp4"
+  },
+  {
+    "count": "4526",
+    "id": "1588",
+    "text": "剛剛忍不住笑了起來",
+    "sign_animation": "sentence/p/S-patient.mp4"
+  },
+  {
+    "count": "4527",
+    "id": "1601",
+    "text": "警察識破犯人的計謀",
+    "sign_animation": "sentence/p/S-penetrate.mp4"
+  },
+  {
+    "count": "4528",
+    "id": "1607",
+    "text": "這是標準答案",
+    "sign_animation": "sentence/p/S-perfect.mp4"
+  },
+  {
+    "count": "4529",
+    "id": "1612",
+    "text": "那邊有兩個人",
+    "sign_animation": "sentence/p/S-person_b.mp4"
+  },
+  {
+    "count": "4530",
+    "id": "1621",
+    "text": "我喜歡運動",
+    "sign_animation": "sentence/p/S-physical.mp4"
+  },
+  {
+    "count": "4531",
+    "id": "1621",
+    "text": "每個星期三要運動",
+    "sign_animation": "sentence/p/S-physical.mp4"
+  },
+  {
+    "count": "4532",
+    "id": "1645",
+    "text": "新年前記得先訂火車票",
+    "sign_animation": "sentence/p/S-place_an_order.mp4"
+  },
+  {
+    "count": "4533",
+    "id": "1647",
+    "text": "他計畫明年去滑雪",
+    "sign_animation": "sentence/p/S-plan_b.mp4"
+  },
+  {
+    "count": "4534",
+    "id": "1648",
+    "text": "農夫在田裡種了各種各樣的水果",
+    "sign_animation": "sentence/p/S-plant_verb.mp4"
+  },
+  {
+    "count": "4535",
+    "id": "1657",
+    "text": "請再說一次",
+    "sign_animation": "sentence/p/S-please.mp4"
+  },
+  {
+    "count": "4536",
+    "id": "1665",
+    "text": "警察是人民保母",
+    "sign_animation": "sentence/p/S-policeman.mp4"
+  },
+  {
+    "count": "4537",
+    "id": "1674",
+    "text": "弟弟去郵局寄信",
+    "sign_animation": "sentence/p/S-post_office_a.mp4"
+  },
+  {
+    "count": "4538",
+    "id": "1683",
+    "text": "每天練習就會進步",
+    "sign_animation": "sentence/p/S-practice.mp4"
+  },
+  {
+    "count": "4539",
+    "id": "1686",
+    "text": "我需要做比賽前的準備",
+    "sign_animation": "sentence/p/S-prepare.mp4"
+  },
+  {
+    "count": "4540",
+    "id": "1695",
+    "text": "他解決了這道數學問題",
+    "sign_animation": "sentence/p/S-problem.mp4"
+  },
+  {
+    "count": "4541",
+    "id": "1695",
+    "text": "沒有解決不了的問題",
+    "sign_animation": "sentence/p/S-problem.mp4"
+  },
+  {
+    "count": "4542",
+    "id": "1698",
+    "text": "這個節目很好看",
+    "sign_animation": "sentence/p/S-program.mp4"
+  },
+  {
+    "count": "4543",
+    "id": "1699",
+    "text": "他的中文進步很多",
+    "sign_animation": "sentence/p/S-progress.mp4"
+  },
+  {
+    "count": "4544",
+    "id": "1704",
+    "text": "老舊建築必須保留原狀",
+    "sign_animation": "sentence/p/S-protect.mp4"
+  },
+  {
+    "count": "4545",
+    "id": "1710",
+    "text": "他把我拉過去",
+    "sign_animation": "sentence/p/S-pull.mp4"
+  },
+  {
+    "count": "4546",
+    "id": "1719",
+    "text": "他推我下去池子裡",
+    "sign_animation": "sentence/p/S-push.mp4"
+  },
+  {
+    "count": "4547",
+    "id": "1728",
+    "text": "看電影時請保持安靜",
+    "sign_animation": "sentence/q/S-quiet.mp4"
+  },
+  {
+    "count": "4548",
+    "id": "1733",
+    "text": "外面下雨了",
+    "sign_animation": "sentence/r/S-rain.mp4"
+  },
+  {
+    "count": "4549",
+    "id": "1733",
+    "text": "下雨不能出門",
+    "sign_animation": "sentence/r/S-rain.mp4"
+  },
+  {
+    "count": "4550",
+    "id": "1743",
+    "text": "盒子裡的老照片是珍貴的回憶",
+    "sign_animation": "sentence/r/S-recall.mp4"
+  },
+  {
+    "count": "4551",
+    "id": "1748",
+    "text": "我最近買了一部電腦",
+    "sign_animation": "sentence/r/S-recent_past.mp4"
+  },
+  {
+    "count": "4552",
+    "id": "1752",
+    "text": "所有動物的血都是紅色的，是吧?",
+    "sign_animation": "sentence/r/S-red_n.mp4"
+  },
+  {
+    "count": "4553",
+    "id": "1755",
+    "text": "媽媽把紙條貼在冰箱上",
+    "sign_animation": "sentence/r/S-refrigerator.mp4"
+  },
+  {
+    "count": "4554",
+    "id": "1756",
+    "text": "全台灣的人民都想阻擋新冠狀病毒散播",
+    "sign_animation": "sentence/r/S-refuse.mp4"
+  },
+  {
+    "count": "4555",
+    "id": "1785",
+    "text": "這家餐廳生意很好",
+    "sign_animation": "sentence/r/S-restaurant_b.mp4"
+  },
+  {
+    "count": "4556",
+    "id": "1791",
+    "text": "地球繞著太陽轉",
+    "sign_animation": "sentence/r/S-revolve.mp4"
+  },
+  {
+    "count": "4557",
+    "id": "1795",
+    "text": "米是台灣的主食",
+    "sign_animation": "sentence/r/S-rice_a.mp4"
+  },
+  {
+    "count": "4558",
+    "id": "1801",
+    "text": "他很有錢，到處亂花",
+    "sign_animation": "sentence/r/S-rich.mp4"
+  },
+  {
+    "count": "4559",
+    "id": "1805",
+    "text": "河邊有許多野花",
+    "sign_animation": "sentence/r/S-river_a.mp4"
+  },
+  {
+    "count": "4560",
+    "id": "1806",
+    "text": "這條道路是新的",
+    "sign_animation": "sentence/r/S-road.mp4"
+  },
+  {
+    "count": "4561",
+    "id": "1807",
+    "text": "剛剛弟弟跨越了平交道",
+    "sign_animation": "sentence/r/S-road_junction.mp4"
+  },
+  {
+    "count": "4562",
+    "id": "1808",
+    "text": "妹妹搶了弟弟玩具",
+    "sign_animation": "sentence/r/S-rob_a.mp4"
+  },
+  {
+    "count": "4563",
+    "id": "1835",
+    "text": "每日鹽巴要適中而不過量",
+    "sign_animation": "sentence/s/S-salt_n.mp4"
+  },
+  {
+    "count": "4564",
+    "id": "1837",
+    "text": "他走了一圈，又回到了原點",
+    "sign_animation": "sentence/s/S-same.mp4"
+  },
+  {
+    "count": "4565",
+    "id": "1837",
+    "text": "他們兄弟長的一樣",
+    "sign_animation": "sentence/s/S-same.mp4"
+  },
+  {
+    "count": "4566",
+    "id": "1850",
+    "text": "從我家到學校很遠",
+    "sign_animation": "sentence/s/S-school.mp4"
+  },
+  {
+    "count": "4567",
+    "id": "1850",
+    "text": "這間學校剛蓋好",
+    "sign_animation": "sentence/s/S-school.mp4"
+  },
+  {
+    "count": "4568",
+    "id": "1852",
+    "text": "媽媽一直罵弟弟",
+    "sign_animation": "sentence/s/S-scold_a.mp4"
+  },
+  {
+    "count": "4569",
+    "id": "1855",
+    "text": "地球表面的70%由海洋覆蓋",
+    "sign_animation": "sentence/s/S-sea.mp4"
+  },
+  {
+    "count": "4570",
+    "id": "1868",
+    "text": "他瞄了我一眼",
+    "sign_animation": "sentence/s/S-see.mp4"
+  },
+  {
+    "count": "4571",
+    "id": "1874",
+    "text": "我自己一個人逛街",
+    "sign_animation": "sentence/s/S-self_n.mp4"
+  },
+  {
+    "count": "4572",
+    "id": "1875",
+    "text": "我自己一個人逛街",
+    "sign_animation": "sentence/s/S-self_s.mp4"
+  },
+  {
+    "count": "4573",
+    "id": "1879",
+    "text": "那棟大樓一層樓要賣一千萬",
+    "sign_animation": "sentence/s/S-sell.mp4"
+  },
+  {
+    "count": "4574",
+    "id": "1879",
+    "text": "他把房子賣了",
+    "sign_animation": "sentence/s/S-sell.mp4"
+  },
+  {
+    "count": "4575",
+    "id": "1885",
+    "text": "一個禮拜有七天",
+    "sign_animation": "sentence/s/S-seven.mp4"
+  },
+  {
+    "count": "4576",
+    "id": "1897",
+    "text": "剛剛我跟總統握手",
+    "sign_animation": "sentence/s/S-shake_hands.mp4"
+  },
+  {
+    "count": "4577",
+    "id": "1911",
+    "text": "這雙鞋子穿起來很舒適",
+    "sign_animation": "sentence/s/S-shoe_n.mp4"
+  },
+  {
+    "count": "4578",
+    "id": "1914",
+    "text": "我們兩個離得很近",
+    "sign_animation": "sentence/s/S-short_b.mp4"
+  },
+  {
+    "count": "4579",
+    "id": "1915",
+    "text": "最近生活很拮据",
+    "sign_animation": "sentence/s/S-short_of_money.mp4"
+  },
+  {
+    "count": "4580",
+    "id": "1918",
+    "text": "互相幫忙是應該的",
+    "sign_animation": "sentence/s/S-should.mp4"
+  },
+  {
+    "count": "4581",
+    "id": "1928",
+    "text": "妹妹生病了",
+    "sign_animation": "sentence/s/S-sick.mp4"
+  },
+  {
+    "count": "4582",
+    "id": "1934",
+    "text": "兒子長得很像爸爸",
+    "sign_animation": "sentence/s/S-similar.mp4"
+  },
+  {
+    "count": "4583",
+    "id": "1935",
+    "text": "你以為我不會手語嗎",
+    "sign_animation": "sentence/s/S-similar_a.mp4"
+  },
+  {
+    "count": "4584",
+    "id": "1940",
+    "text": "弟弟喜歡聽歌曲(音樂)",
+    "sign_animation": "sentence/s/S-sing.mp4"
+  },
+  {
+    "count": "4585",
+    "id": "1942",
+    "text": "你坐在這裡等我",
+    "sign_animation": "sentence/s/S-sit.mp4"
+  },
+  {
+    "count": "4586",
+    "id": "1947",
+    "text": "滑雪是冬季奧運的比賽項目之一",
+    "sign_animation": "sentence/s/S-skiing.mp4"
+  },
+  {
+    "count": "4587",
+    "id": "1950",
+    "text": "用動物皮製作產品很殘忍",
+    "sign_animation": "sentence/s/S-skin.mp4"
+  },
+  {
+    "count": "4588",
+    "id": "1952",
+    "text": "天上一點雲都沒有",
+    "sign_animation": "sentence/s/S-sky.mp4"
+  },
+  {
+    "count": "4589",
+    "id": "1954",
+    "text": "他睡著了",
+    "sign_animation": "sentence/s/S-sleep_a.mp4"
+  },
+  {
+    "count": "4590",
+    "id": "1954",
+    "text": "為了這份計劃，他已經好幾天沒睡覺了",
+    "sign_animation": "sentence/s/S-sleep_a.mp4"
+  },
+  {
+    "count": "4591",
+    "id": "1965",
+    "text": "天雨路滑,慢慢走",
+    "sign_animation": "sentence/s/S-slow_n.mp4"
+  },
+  {
+    "count": "4592",
+    "id": "1974",
+    "text": "這一個容器中的這一顆蘋果壞掉了",
+    "sign_animation": "sentence/s/S-smelly.mp4"
+  },
+  {
+    "count": "4593",
+    "id": "1992",
+    "text": "爸爸的襪子很多",
+    "sign_animation": "sentence/s/S-socks.mp4"
+  },
+  {
+    "count": "4594",
+    "id": "2001",
+    "text": "他向媽媽說對不起",
+    "sign_animation": "sentence/s/S-sorry.mp4"
+  },
+  {
+    "count": "4595",
+    "id": "2006",
+    "text": "這梅子很酸",
+    "sign_animation": "sentence/s/S-sour_b.mp4"
+  },
+  {
+    "count": "4596",
+    "id": "2007",
+    "text": "南方比北方熱",
+    "sign_animation": "sentence/s/S-south_a.mp4"
+  },
+  {
+    "count": "4597",
+    "id": "2011",
+    "text": "他把醬油倒的到處都是",
+    "sign_animation": "sentence/s/S-soy_sauce.mp4"
+  },
+  {
+    "count": "4598",
+    "id": "2013",
+    "text": "他的腳掌很寬",
+    "sign_animation": "sentence/s/S-spacious_a.mp4"
+  },
+  {
+    "count": "4599",
+    "id": "2017",
+    "text": "我會說三種語言",
+    "sign_animation": "sentence/s/S-speak.mp4"
+  },
+  {
+    "count": "4600",
+    "id": "2017",
+    "text": "你講話聲音太小了",
+    "sign_animation": "sentence/s/S-speak.mp4"
+  },
+  {
+    "count": "4601",
+    "id": "2026",
+    "text": "學生喜歡聽老師講鬼故事",
+    "sign_animation": "sentence/s/S-speech_n.mp4"
+  },
+  {
+    "count": "4602",
+    "id": "2030",
+    "text": "運動家精神很重要",
+    "sign_animation": "sentence/s/S-spirit.mp4"
+  },
+  {
+    "count": "4603",
+    "id": "2040",
+    "text": "信封上面要貼郵票",
+    "sign_animation": "sentence/s/S-stamp.mp4"
+  },
+  {
+    "count": "4604",
+    "id": "2041",
+    "text": "我被罰站好久",
+    "sign_animation": "sentence/s/S-stand.mp4"
+  },
+  {
+    "count": "4605",
+    "id": "2046",
+    "text": "他開始寫作業了",
+    "sign_animation": "sentence/s/S-start.mp4"
+  },
+  {
+    "count": "4606",
+    "id": "2051",
+    "text": "我的機車被偷了",
+    "sign_animation": "sentence/s/S-steal.mp4"
+  },
+  {
+    "count": "4607",
+    "id": "2066",
+    "text": "紅燈停，綠燈行",
+    "sign_animation": "sentence/s/S-stop.mp4"
+  },
+  {
+    "count": "4608",
+    "id": "2071",
+    "text": "直走到底右轉就到銀行",
+    "sign_animation": "sentence/s/S-straight.mp4"
+  },
+  {
+    "count": "4609",
+    "id": "2072",
+    "text": "這道菜看起來很奇怪",
+    "sign_animation": "sentence/s/S-strange_n.mp4"
+  },
+  {
+    "count": "4610",
+    "id": "2073",
+    "text": "那裡有奇怪的人走來走去",
+    "sign_animation": "sentence/s/S-strange_s.mp4"
+  },
+  {
+    "count": "4611",
+    "id": "2081",
+    "text": "放學後，學生都回家了",
+    "sign_animation": "sentence/s/S-student.mp4"
+  },
+  {
+    "count": "4612",
+    "id": "2081",
+    "text": "所有的學生都喜歡那個老師",
+    "sign_animation": "sentence/s/S-student.mp4"
+  },
+  {
+    "count": "4613",
+    "id": "2089",
+    "text": "他今天替我代班",
+    "sign_animation": "sentence/s/S-substitute.mp4"
+  },
+  {
+    "count": "4614",
+    "id": "2091",
+    "text": "忽然下了雨，把每個人都淋溼了",
+    "sign_animation": "sentence/s/S-suddenly_a.mp4"
+  },
+  {
+    "count": "4615",
+    "id": "2097",
+    "text": "我不喜歡甜食",
+    "sign_animation": "sentence/s/S-sugar_n.mp4"
+  },
+  {
+    "count": "4616",
+    "id": "2115",
+    "text": "這封信請記得交給他",
+    "sign_animation": "sentence/s/S-supply_a.mp4"
+  },
+  {
+    "count": "4617",
+    "id": "2116",
+    "text": "旅館提供舒服的床",
+    "sign_animation": "sentence/s/S-supply_b.mp4"
+  },
+  {
+    "count": "4618",
+    "id": "2129",
+    "text": "每天游泳對身體很好",
+    "sign_animation": "sentence/s/S-swim_a.mp4"
+  },
+  {
+    "count": "4619",
+    "id": "2136",
+    "text": "桌上的瓶子插著一朵花",
+    "sign_animation": "sentence/t/S-table.mp4"
+  },
+  {
+    "count": "4620",
+    "id": "2141",
+    "text": "我是最後一個交作業的人",
+    "sign_animation": "sentence/t/S-tail.mp4"
+  },
+  {
+    "count": "4621",
+    "id": "2145",
+    "text": "我住在台北",
+    "sign_animation": "sentence/t/S-taipei.mp4"
+  },
+  {
+    "count": "4622",
+    "id": "2146",
+    "text": "台灣護士的專業能力很強",
+    "sign_animation": "sentence/t/S-taiwan.mp4"
+  },
+  {
+    "count": "4623",
+    "id": "2149",
+    "text": "他拿了我的小提琴",
+    "sign_animation": "sentence/t/S-take.mp4"
+  },
+  {
+    "count": "4624",
+    "id": "2152",
+    "text": "你要好好照顧妹妹",
+    "sign_animation": "sentence/t/S-take_care_of_a.mp4"
+  },
+  {
+    "count": "4625",
+    "id": "2162",
+    "text": "請勿喧嘩，我們正在錄音",
+    "sign_animation": "sentence/t/S-tape_recording.mp4"
+  },
+  {
+    "count": "4626",
+    "id": "2169",
+    "text": "我們遲到了，坐計程車去吧",
+    "sign_animation": "sentence/t/S-taxi.mp4"
+  },
+  {
+    "count": "4627",
+    "id": "2172",
+    "text": "老師的主要工作是教學",
+    "sign_animation": "sentence/t/S-teach.mp4"
+  },
+  {
+    "count": "4628",
+    "id": "2173",
+    "text": "我的老師是台中人",
+    "sign_animation": "sentence/t/S-teacher_n.mp4"
+  },
+  {
+    "count": "4629",
+    "id": "2174",
+    "text": "我本來是老師",
+    "sign_animation": "sentence/t/S-teacher_s.mp4"
+  },
+  {
+    "count": "4630",
+    "id": "2182",
+    "text": "他說我很漂亮",
+    "sign_animation": "sentence/t/S-tell.mp4"
+  },
+  {
+    "count": "4631",
+    "id": "2182",
+    "text": "他說會永遠愛我",
+    "sign_animation": "sentence/t/S-tell.mp4"
+  },
+  {
+    "count": "4632",
+    "id": "2189",
+    "text": "新的手機要一萬元",
+    "sign_animation": "sentence/t/S-ten_thousand.mp4"
+  },
+  {
+    "count": "4633",
+    "id": "2194",
+    "text": "今天要考英文",
+    "sign_animation": "sentence/t/S-test_b_s.mp4"
+  },
+  {
+    "count": "4634",
+    "id": "2196",
+    "text": "謝謝你的幫忙",
+    "sign_animation": "sentence/t/S-thank_n.mp4"
+  },
+  {
+    "count": "4635",
+    "id": "2199",
+    "text": "他們兩個人是我的朋友",
+    "sign_animation": "sentence/t/S-the_two_of_them.mp4"
+  },
+  {
+    "count": "4636",
+    "id": "2200",
+    "text": "我倆是好朋友，從小一起長大",
+    "sign_animation": "sentence/t/S-the_two_of_us.mp4"
+  },
+  {
+    "count": "4637",
+    "id": "2217",
+    "text": "他覺得所有人都要害他",
+    "sign_animation": "sentence/t/S-think.mp4"
+  },
+  {
+    "count": "4638",
+    "id": "2217",
+    "text": "他每天想著怎麼變瘦",
+    "sign_animation": "sentence/t/S-think.mp4"
+  },
+  {
+    "count": "4639",
+    "id": "2219",
+    "text": "我覺得口渴了",
+    "sign_animation": "sentence/t/S-thirsty.mp4"
+  },
+  {
+    "count": "4640",
+    "id": "2232",
+    "text": "現在是晚餐時間",
+    "sign_animation": "sentence/t/S-time_b.mp4"
+  },
+  {
+    "count": "4641",
+    "id": "2237",
+    "text": "我剛考完試很累",
+    "sign_animation": "sentence/t/S-tired.mp4"
+  },
+  {
+    "count": "4642",
+    "id": "2237",
+    "text": "爸爸的工作很累",
+    "sign_animation": "sentence/t/S-tired.mp4"
+  },
+  {
+    "count": "4643",
+    "id": "2248",
+    "text": "跟我一同去郊遊",
+    "sign_animation": "sentence/t/S-together.mp4"
+  },
+  {
+    "count": "4644",
+    "id": "2254",
+    "text": "明天市長要來",
+    "sign_animation": "sentence/t/S-tomorrow.mp4"
+  },
+  {
+    "count": "4645",
+    "id": "2258",
+    "text": "牙齒是很堅硬的",
+    "sign_animation": "sentence/t/S-tooth.mp4"
+  },
+  {
+    "count": "4646",
+    "id": "2259",
+    "text": "睡覺前要刷牙",
+    "sign_animation": "sentence/t/S-toothbrush.mp4"
+  },
+  {
+    "count": "4647",
+    "id": "2259",
+    "text": "他剛換了一隻綠色的新牙刷",
+    "sign_animation": "sentence/t/S-toothbrush.mp4"
+  },
+  {
+    "count": "4648",
+    "id": "2278",
+    "text": "去國外旅遊時要注意安全",
+    "sign_animation": "sentence/t/S-travel.mp4"
+  },
+  {
+    "count": "4649",
+    "id": "2285",
+    "text": "我家有三台卡車",
+    "sign_animation": "sentence/t/S-truck.mp4"
+  },
+  {
+    "count": "4650",
+    "id": "2308",
+    "text": "上禮拜的颱風很大",
+    "sign_animation": "sentence/t/S-typhoon.mp4"
+  },
+  {
+    "count": "4651",
+    "id": "2337",
+    "text": "昨天我遺失了皮包，真倒楣。",
+    "sign_animation": "sentence/b/S-bad_luck_c.mp4"
+  },
+  {
+    "count": "4652",
+    "id": "2346",
+    "text": "他急著地離開",
+    "sign_animation": "sentence/u/S-upset.mp4"
+  },
+  {
+    "count": "4653",
+    "id": "2354",
+    "text": "他昨天熬夜，所以今天請假",
+    "sign_animation": "sentence/v/S-vacation_a.mp4"
+  },
+  {
+    "count": "4654",
+    "id": "2360",
+    "text": "我會說三種語言",
+    "sign_animation": "sentence/v/S-variety.mp4"
+  },
+  {
+    "count": "4655",
+    "id": "2367",
+    "text": "從我家到學校很遠",
+    "sign_animation": "sentence/v/S-very.mp4"
+  },
+  {
+    "count": "4656",
+    "id": "2376",
+    "text": "我要看報紙",
+    "sign_animation": "sentence/v/S-visit_a.mp4"
+  },
+  {
+    "count": "4657",
+    "id": "2391",
+    "text": "我們一起走吧",
+    "sign_animation": "sentence/w/S-walk.mp4"
+  },
+  {
+    "count": "4658",
+    "id": "2396",
+    "text": "妳願意嫁給我嗎?",
+    "sign_animation": "sentence/w/S-want_n.mp4"
+  },
+  {
+    "count": "4659",
+    "id": "2397",
+    "text": "我要準備比賽",
+    "sign_animation": "sentence/w/S-want_s.mp4"
+  },
+  {
+    "count": "4660",
+    "id": "2397",
+    "text": "我需要三把椅子",
+    "sign_animation": "sentence/w/S-want_s.mp4"
+  },
+  {
+    "count": "4661",
+    "id": "2400",
+    "text": "他的大衣很暖和",
+    "sign_animation": "sentence/w/S-warm.mp4"
+  },
+  {
+    "count": "4662",
+    "id": "2402",
+    "text": "吃飯前記得要先洗手",
+    "sign_animation": "sentence/w/S-wash.mp4"
+  },
+  {
+    "count": "4663",
+    "id": "2405",
+    "text": "不要浪費時間",
+    "sign_animation": "sentence/w/S-waste.mp4"
+  },
+  {
+    "count": "4664",
+    "id": "2412",
+    "text": "夏天的時候我們會吃西瓜",
+    "sign_animation": "sentence/w/S-watermelon.mp4"
+  },
+  {
+    "count": "4665",
+    "id": "2416",
+    "text": "我們約好要去KTV唱歌",
+    "sign_animation": "sentence/w/S-we.mp4"
+  },
+  {
+    "count": "4666",
+    "id": "2424",
+    "text": "歡迎光臨台灣",
+    "sign_animation": "sentence/w/S-welcome_a.mp4"
+  },
+  {
+    "count": "4667",
+    "id": "2429",
+    "text": "往西邊走會到公園",
+    "sign_animation": "sentence/w/S-west.mp4"
+  },
+  {
+    "count": "4668",
+    "id": "2434",
+    "text": "今天日期是三月八日",
+    "sign_animation": "sentence/w/S-what_date.mp4"
+  },
+  {
+    "count": "4669",
+    "id": "2439",
+    "text": "我找不到老師，怎麼辦?",
+    "sign_animation": "sentence/w/S-what_to_do_a.mp4"
+  },
+  {
+    "count": "4670",
+    "id": "2440",
+    "text": "我找不到老師，怎麼辦?",
+    "sign_animation": "sentence/w/S-what_to_do_b.mp4"
+  },
+  {
+    "count": "4671",
+    "id": "2441",
+    "text": "不要隨便亂丟垃圾",
+    "sign_animation": "sentence/w/S-whatever.mp4"
+  },
+  {
+    "count": "4672",
+    "id": "2446",
+    "text": "你剛剛說了什麼?",
+    "sign_animation": "sentence/w/S-which_what.mp4"
+  },
+  {
+    "count": "4673",
+    "id": "2450",
+    "text": "那個人是誰?",
+    "sign_animation": "sentence/w/S-who.mp4"
+  },
+  {
+    "count": "4674",
+    "id": "2453",
+    "text": "你為什麼不相信我?",
+    "sign_animation": "sentence/w/S-why_b.mp4"
+  },
+  {
+    "count": "4675",
+    "id": "2457",
+    "text": "他願意和你結婚嗎？",
+    "sign_animation": "sentence/w/S-willing.mp4"
+  },
+  {
+    "count": "4676",
+    "id": "2475",
+    "text": "這塊木頭很稀有",
+    "sign_animation": "sentence/w/S-wood.mp4"
+  },
+  {
+    "count": "4677",
+    "id": "2479",
+    "text": "希望世界和平",
+    "sign_animation": "sentence/w/S-world.mp4"
+  },
+  {
+    "count": "4678",
+    "id": "2483",
+    "text": "弟弟寫了一份備忘錄",
+    "sign_animation": "sentence/w/S-write.mp4"
+  },
+  {
+    "count": "4679",
+    "id": "2495",
+    "text": "今年是2020年",
+    "sign_animation": "sentence/y/S-year.mp4"
+  },
+  {
+    "count": "4680",
+    "id": "2496",
+    "text": "香蕉成熟後的外皮是黃色的",
+    "sign_animation": "sentence/y/S-yellow.mp4"
+  },
+  {
+    "count": "4681",
+    "id": "2497",
+    "text": "我昨天去看電影",
+    "sign_animation": "sentence/y/S-yesterday.mp4"
+  },
+  {
+    "count": "4682",
+    "id": "2498",
+    "text": "爸爸原諒妹妹打破花瓶",
+    "sign_animation": "sentence/y/S-yield.mp4"
+  },
+  {
+    "count": "4683",
+    "id": "2501",
+    "text": "年輕的時候要多閱讀",
+    "sign_animation": "sentence/y/S-young.mp4"
+  },
+  {
+    "count": "4684",
+    "id": "2503",
+    "text": "妹妹很喜歡那個男生",
+    "sign_animation": "sentence/y/S-younger_sister.mp4"
+  },
+  {
+    "count": "4685",
+    "id": "2503",
+    "text": "他有三個弟弟兩個妹妹",
+    "sign_animation": "sentence/y/S-younger_sister.mp4"
+  },
+  {
+    "count": "4686",
+    "id": "2572",
+    "text": "妹妹沒有看過雪",
+    "sign_animation": "sentence/s/S-snow_b.mp4"
+  },
+  {
+    "count": "4687",
+    "id": "2578",
+    "text": "他的眼睛亮了起來",
+    "sign_animation": "sentence/b/S-bright_a.mp4"
+  },
+  {
+    "count": "4688",
+    "id": "2588",
+    "text": "他考試得零分",
+    "sign_animation": "sentence/z/S-zero_b.mp4"
+  },
+  {
+    "count": "4689",
+    "id": "3047",
+    "text": "他把暑假作業完成了",
+    "sign_animation": "sentence/s/S-summer_vacation.mp4"
+  }
+]

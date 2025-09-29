@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>台灣手語翻譯系統</title>
+    <style>
+        body {
+            font-family: "Helvetica Neue", sans-serif;
+            background-color: #f7f9fc;
+            margin: 40px;
+            color: #333;
+        }
+        h1 {
+            color: #1e90ff;
+        }
+        textarea, input, button {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+        }
+        button {
+            padding: 10px 16px;
+            border: none;
+            border-radius: 6px;
+            background-color: #1e90ff;
+            color: white;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #007acc;
+        }
+        .result {
+            background-color: #fff;
+            border-radius: 6px;
+            padding: 16px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>台灣手語翻譯系統</h1>
+
+    <label>輸入文字：</label>
+    <textarea id="textInput" rows="4" placeholder="請輸入查詢句（或上傳音檔／錄音）"></textarea>
+
+    <label>或上傳音訊檔案：</label>
+    <input type="file" id="audioUpload" accept="audio/*">
+
+    <br>
+    <button onclick="startRecording()">開始錄音</button>
+    <button onclick="stopRecording()">🛑 停止錄音</button>
+    <br><br>
+
+    <button onclick="submit()">送出查詢</button>
+
+    <div class="result" id="result"></div>
+
+    <script>
+        let recorder, audioBlob;
+        let isRecording = false;
+        let videoDB = new Set();
+        let videoDBReady = false;
+        
+        // 載入影片資料庫 JSON
+        async function loadVideoDB() {
+            try {
+                const res = await fetch("videos.json");
+                const data = await res.json();
+                videoDB = new Set(data.videos);
+                videoDBReady = true;
+                console.log("已載入影片資料庫：", videoDB);
+            } catch (err) {
+                console.error("載入 videos.json 失敗：", err);
+            }
+        }
+        loadVideoDB();
+        
+        async function startRecording() {
+            try {
+        const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+        recorder = new MediaRecorder(stream);
+        const chunks = [];
+        recorder.ondataavailable = e => chunks.push(e.data);
+        recorder.onstop = () => {
+            audioBlob = new Blob(chunks, { type: 'audio/webm' });
+             // 停止使用麥克風
+            stream.getTracks().forEach(track => track.stop());
+            // const audioURL = URL.createObjectURL(audioBlob);
+            // const audio = new Audio(audioURL);
+            // audio.play(); // 播放錄音
+        };
+        recorder.start();
+        isRecording = true;
+        console.log("錄音開始");
+    } catch (err) {
+        console.error("錄音失敗：", err);
+        alert("⚠️ 錄音功能無法啟動，請確認您是否允許麥克風權限，或使用 HTTPS/localhost");
+    }
+        }
+
+        function stopRecording() {
+             if (recorder && isRecording) {
+                recorder.stop();
+                isRecording = false;
+            }
+        }
+
+        async function submit() {
+            const text = document.getElementById("textInput").value.trim();
+            const fileInput = document.getElementById("audioUpload");
+            const resultDiv = document.getElementById("result");
+            
+            if (!videoDBReady) {
+                alert("影片資料庫尚未載入完成，請稍候再試");
+                return;
+            }
+            resultDiv.innerHTML = "處理中，請稍候...";
+
+            // Case 1：文字查詢
+            if (text) {
+                let finalResult = "<h3>查詢結果：</h3><ul>";
+                
+                const res = await fetch("http://140.123.105.233:9000/semantic_check", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ text: text })
+                });
+                const r = await res.json();
+               
+                for (const item of r.result) {
+                    if (item.animation_path == "沒有相似的句子") {
+                        finalResult += `<li><pre>${item.sentence} → 沒有相似的句子</pre></li>`;
+                    } else {
+                        // 檢查 animation_path 是否在資料庫
+                        if (videoDB.has(item.animation_path)) {
+                            finalResult += `<li><pre>${item.sentence} → ${item.animation_path}</pre></li>`;
+                        } else {
+                            finalResult += `<li><pre>${item.sentence} → 沒有相似的句子</pre></li>`;
+                        }
+                    }
+                }
+                
+                finalResult += "</ul>";
+                resultDiv.innerHTML = finalResult;
+            } 
+
+            // Case 2：上傳音檔或錄音
+            else if (fileInput.files.length > 0 || audioBlob) {
+                const formData = new FormData();
+                if (fileInput.files.length > 0) {
+                    formData.append("files", fileInput.files[0]);
+                } else {
+                    formData.append("files", new File([audioBlob], "recorded.webm"));
+                }
+                let transcribeResult;
+                let fullText = "";
+                let sentences = [];
+               try {
+                    const response = await fetch("http://140.123.105.233:8080/transcribe/", {
+                        method: "POST",
+                        headers: { "accept": "application/json" },
+                        body: formData
+                    });
+
+                    transcribeResult = await response.json();
+                    fullText = transcribeResult.result[0].transcription;         
+                   // resultDiv.innerHTML = `<h3>text： ${fullText} </h3>`;
+                } catch (err) {
+                    console.error("fetch 錯誤：", err);
+                    resultDiv.innerHTML = `<p style="color:red"> 語音辨識失敗：${err}</p>`;
+                }
+
+                let finalResult = "<h3>查詢結果：</h3><ul>";
+
+                const res = await fetch("http://140.123.105.233:9000/semantic_check", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ text: fullText })
+                });
+                
+                const r = await res.json();
+                
+                for (const item of r.result) {
+                    if (item.animation_path == "沒有相似的句子") {
+                        finalResult += `<li><pre>${item.sentence} → 沒有相似的句子</pre></li>`;
+                    } else {
+                        // 檢查 animation_path 是否在資料庫
+                        if (videoDB.has(item.animation_path)) {
+                            finalResult += `<li><pre>${item.sentence} → ${item.animation_path}</pre></li>`;
+                        } else {
+                            finalResult += `<li><pre>${item.sentence} → 沒有相似的句子</pre></li>`;
+                        }
+                    }
+                }
+
+                finalResult += "</ul>";
+                resultDiv.innerHTML = finalResult;
+            } else {
+                resultDiv.innerHTML = "請輸入文字或上傳／錄製語音。";
+            }
+        }
+    </script>
+</body>
+</html>

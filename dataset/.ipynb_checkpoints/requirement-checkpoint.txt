@@ -1,0 +1,9 @@
+mtkresearch
+transformer
+accelerate
+timm 
+einops
+openai
+pydantic
+fastapi
+uvicorn
