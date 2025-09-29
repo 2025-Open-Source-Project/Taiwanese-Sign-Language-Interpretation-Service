@@ -139,7 +139,14 @@
                     } else {
                         // 檢查 animation_path 是否在資料庫
                         if (videoDB.has(item.animation_path)) {
-                            finalResult += `<li><pre>${item.sentence} → ${item.animation_path}</pre></li>`;
+                            finalResult += `
+                                <li>
+                                    <pre>${item.sentence}</pre>
+                                        <video autoplay muted loop controls width="320">
+                                            <source src="videos/${item.animation_path}" type="video/mp4">
+                                            您的瀏覽器不支援影片播放。
+                                        </video>
+                                </li>`;
                         } else {
                             finalResult += `<li><pre>${item.sentence} → 沒有相似的句子</pre></li>`;
                         }
@@ -188,11 +195,18 @@
                 
                 for (const item of r.result) {
                     if (item.animation_path == "沒有相似的句子") {
-                        finalResult += `<li><pre>${item.sentence} → 沒有相似的句子</pre></li>`;
+                        finalResult += `<li><pre>${item.sentence} → 沒有相似的句子</pre></li>`; 
                     } else {
                         // 檢查 animation_path 是否在資料庫
                         if (videoDB.has(item.animation_path)) {
-                            finalResult += `<li><pre>${item.sentence} → ${item.animation_path}</pre></li>`;
+                            finalResult +=`
+                                <li>
+                                    <pre>${item.sentence}</pre>
+                                        <video autoplay muted loop controls width="320">
+                                            <source src="videos/${item.animation_path}" type="video/mp4">
+                                            您的瀏覽器不支援影片播放。
+                                        </video>
+                                </li>`;
                         } else {
                             finalResult += `<li><pre>${item.sentence} → 沒有相似的句子</pre></li>`;
                         }
