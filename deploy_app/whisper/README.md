@@ -2,11 +2,11 @@
 + connect to CCU school wifi or VPN
 + use linux env (other ask gpt)
 + input the command below with filename changed to yours
+
 ```bash
 curl -X POST http://140.123.105.233:8080/transcribe/ -H "accept: application/json" -F "files=@<<file _ name + file type >>" -o output.txt
 ```
 + get the audio file to text in output.txt
-
 
 ## deploy 
 + mend only whisper_api.py
