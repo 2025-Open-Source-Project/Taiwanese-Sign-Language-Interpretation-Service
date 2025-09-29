@@ -73,7 +73,7 @@
   + 結束後會產生混淆矩陣與錯誤點的txt檔
 
 ## 功能說明
-+ [webpage]([website](https://github.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/tree/d6d4e0490d8792c15c44271e4cfba45286c2e691/website)): 管理使用者唯一直接接觸到系統的部分，會負責讓使用者輸入欲查詢的資料，並輸出手語影片或查詢失敗。
++ [website](https://github.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/tree/d6d4e0490d8792c15c44271e4cfba45286c2e691/website): 管理使用者唯一直接接觸到系統的部分，會負責讓使用者輸入欲查詢的資料，並輸出手語影片或查詢失敗。
 + [whisper](https://github.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/tree/d6d4e0490d8792c15c44271e4cfba45286c2e691/deploy_app/whisper): 利用 Open AI 的開源軟體 Whisper 將音檔或使用者的錄音轉換為文字，並傳遞資料給語意判斷模組(Qwen2 + mistral)。
 + [dataset](https://github.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/tree/d6d4e0490d8792c15c44271e4cfba45286c2e691/dataset): 將傳過來的內容切割處理，先經過 qwen2-1.5B 做語意向量檢索，從我們的向量資料庫中找出前五名與查詢語句最相近的資料，再將五筆資料交給 Mistral 做精確判斷(相同與否)。
 + [videos](https://github.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/tree/d6d4e0490d8792c15c44271e4cfba45286c2e691/website/static/videos/): 儲存 Blender 手語動畫，提供影片給前端顯示
@@ -180,8 +180,13 @@ Taiwanese-Sign-Language-Interpretation-Service
 ├── structure.png
 ├── website
 │   ├── README.md
-│   ├── static
+│   ├──  static
 │   │   ├── index.html
+│   │   ├── videos
+│   │   │   ├── sentence
+│   │   │   │   └── t
+│   │   │   │       └── S-think_2.mp4
+│   │   │   └── video
 │   │   └── videos.json
 │   ├── webpage_api.py
 │   └── webpage_fig.png

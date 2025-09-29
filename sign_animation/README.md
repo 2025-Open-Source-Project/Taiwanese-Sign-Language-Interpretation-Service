@@ -2,7 +2,7 @@
 + Open Source app: [Blender](https://www.blender.org/)
 + Open Source avatar from [Mixamo](https://www.mixamo.com/) and [MakeHuman](http://makehumancommunity.org/content/downloads.html)  
 
-![](https://raw.githubusercontent.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/main/sign_animation/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-09-02%20005453.png)  
+![](MakeHuman_avatar.png)  
 
 ### Why virtual avatar sign lang video instead of using real person video directly
 - makes it possible to cover unlimited vocabulary and sentences
@@ -24,5 +24,5 @@
     + Mixamo_avatar(w) -> woman
     + Mixamo_avata -> man  
 
-![](https://raw.githubusercontent.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/main/sign_animation/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-09-24%20003733.png)  
+![](body_scale_result_in_dif_poses.png)  
 video source: [台灣手語線上辭典](https://twtsl.ccu.edu.tw/) 

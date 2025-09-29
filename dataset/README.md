@@ -7,11 +7,11 @@
 + 分句處理
 + 以 gte-qwen2 進行 RAG 檢索: 快速從進 5000 筆的資料中取得與查詢句最相似的 5 筆資料  
 
-![](https://raw.githubusercontent.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/main/dataset/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-09-17%20004814.png)
+![](gte-qwen_search_result.png)
 
 + 以 mistral-7B 做精確語意判斷: 從選出的 5 筆資料判斷有無與查詢句完全意思相同者  
 
-![](https://raw.githubusercontent.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/main/dataset/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-09-17%20012153.png)  
+![](mistral_determine_result.png)  
 
 + 將結果(包含相似句子與動畫路徑)回傳給前端   
 

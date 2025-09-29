@@ -14,4 +14,4 @@
 ### web lands on
 in http://140.123.105.233:3000  
 
-![](https://raw.githubusercontent.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/main/website/%E8%9E%A2%E5%B9%95%E6%93%B7%E5%8F%96%E7%95%AB%E9%9D%A2%202025-09-29%20191317.png)
+![](webpage_fig.png)
