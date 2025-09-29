@@ -2,9 +2,9 @@
 **Use tmux to work continuously**  
 `uvicorn whisper_api:app --host 0.0.0.0 --port 3000`  
 
-:::info
-Currently need connect to CCU VPN to access
-:::
+> #### info
+> Currently need connect to CCU VPN to access
+>
 
 ### How to use
 1. input text / audio file / record media immediately

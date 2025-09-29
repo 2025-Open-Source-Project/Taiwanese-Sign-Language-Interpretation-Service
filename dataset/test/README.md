@@ -14,10 +14,10 @@
 
 ### How to run
 
-:::danger 
-#### Precaution
-1. need connect to CCU VPN
-2. need python version >= 3.7
-:::
+
+>#### Precaution
+>1. need connect to CCU VPN
+>2. need python version >= 3.7
+
 
 ```python test.py```
