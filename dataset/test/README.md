@@ -7,10 +7,10 @@
 **當 can_find = 0 時，輸出應為 「沒有相似的句子」**
 **判斷對錯依據為 can_find && result && sign_animation。**
 ### 例如:
-!(err msg)[螢幕擷取畫面 2025-09-17 004106.png]
+![err msg](螢幕擷取畫面 2025-09-17 004106.png)  
 
 ### Confusion Matrix
-!()[2nd\frontend_confusion_matrix_20250923_212534.png]
+![](2nd\frontend_confusion_matrix_20250923_212534.png)  
 
 ### How to run
 

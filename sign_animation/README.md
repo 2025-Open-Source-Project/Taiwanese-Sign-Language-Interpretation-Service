@@ -2,7 +2,7 @@
 + Open Source app: [Blender](https://www.blender.org/)
 + Open Source avatar from [Mixamo](https://www.mixamo.com/) and [MakeHuman](http://makehumancommunity.org/content/downloads.html)
 
-!()[螢幕擷取畫面 2025-09-02 005453.png]
+![](螢幕擷取畫面 2025-09-02 005453.png)  
 
 ### Why virtual avatar sign lang video instead of using real person video directly
 - makes it possible to cover unlimited vocabulary and sentences
@@ -24,5 +24,5 @@
     + Mixamo_avatar(w) -> woman
     + Mixamo_avata -> man
 
-!()[螢幕擷取畫面 2025-09-24 003733.png]
+![](螢幕擷取畫面 2025-09-24 003733.png)  
 video source: [台灣手語線上辭典](https://twtsl.ccu.edu.tw/) 
