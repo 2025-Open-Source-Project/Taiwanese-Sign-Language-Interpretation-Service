@@ -6,6 +6,7 @@ from sentence_transformers import SentenceTransformer, util
 from pydantic import BaseModel
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
+
 # from pathlib import Path
 
 # 先初始化本地向量模型
@@ -31,29 +32,30 @@ app.add_middleware(
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 # model_mistral = os.path.join(home_dir, "text2anime-proj/dataset/models/TheBloke/Mistral-7B-Instruct-v0.2-GPTQ")
+
 model_mistral = "models/mistral"
 tokenizer = AutoTokenizer.from_pretrained(model_mistral, use_fast=True)
 model = AutoModelForCausalLM.from_pretrained(
     model_mistral,
     device_map="auto",
     torch_dtype=torch.float16,
-    low_cpu_mem_usage=True,
+    low_cpu_mem_usage=True
 )
 
 import re
 # 分句
 def split_into_sentences(text):
-    sentences = re.split(r'(?<=[。！？\n\r\t])', text) #，,
+    sentences = re.split(r'(?<=[ 。！？\n\r\t])', text) #，,
     sentences = [s.strip(" ，,\n\r\t") for s in sentences if s.strip(" \n\r\t")] #，,
     print("分句結果：", sentences)
     return sentences
 
-def query_mistral(usr_prompt, query_sentence):
+def query_mistral(usr_prompt, query_sentence, top_sentences, top_animations):
    
     inputs = tokenizer(usr_prompt, return_tensors="pt").to(model.device)
     outputs = model.generate(
         **inputs,
-        max_new_tokens=256,
+        max_new_tokens=8,
         do_sample=False,
         pad_token_id=tokenizer.eos_token_id,
         # eos_token_id=tokenizer.convert_tokens_to_ids("<end_of_turn>")
@@ -61,33 +63,43 @@ def query_mistral(usr_prompt, query_sentence):
     whole_ans = tokenizer.decode(outputs[0], skip_special_tokens=True)
     
     print("Mistral 原始輸出：", whole_ans)
+
+    result = re.search(r"<end>\s*(.*)", whole_ans, re.DOTALL)
     
-    result = re.search(r"<end>\s*(.+?)(相似句子[:：].+?)<end>", whole_ans, re.DOTALL)
-    
-    # print(result.group(2))
+    # print(result)
 
     if result:
-        match = re.search(
-            r"相似句子[:：]\s*(.+?)\s*[\n;；]\s*路徑[:：]?\s*(\S+)",
-            result.group(2),
-            re.DOTALL
-        )
-        if match:
-            sentence = match.group(1).strip()
-            path = match.group(2).strip()
+        
+        match = re.search(r"\s*(\d+)", result.group(1), re.DOTALL)
+        
+        # print(match)
+        
+        if match and match.group(1).isdigit(): 
+            idx = int(match.group(1)) - 1 
+            if idx < 5 and idx >= 0:
+                path = top_animations[idx]
+                sentence = top_sentences[idx]
+                return {
+                    "sentence": sentence,
+                    "animation_path": path
+                }
+        
+        else:
+            if "沒有句子" in result.group(1):
+                return {
+                    "sentence": query_sentence,
+                    "animation_path": "沒有相似的句子"
+                }
             return {
                 "sentence": query_sentence,
-                "animation_path": path
-            }
+                "animation_path": "沒有相似的句子"
+            }   
         
-    if "沒有相似的句子" in whole_ans:
         return {
             "sentence": query_sentence,
             "animation_path": "沒有相似的句子"
-        }
-
-
-    return "格式無法解析，請確認模型輸出"
+            }   
+        
 
 
 def find_similar_sentence(query_sentence):
@@ -112,22 +124,20 @@ def find_similar_sentence(query_sentence):
 
     # text prompt
     usr_prompt = (
-        f"你是一個語意判斷專家，負責判斷資料庫中的句子是否與查詢句意思完全相同。\n"
+        f"你是一個語意判斷專家，負責判斷資料庫中的句子是否與查詢句意思完全相同且涵蓋其意境。\n"
         f"查詢句: 「{query_sentence}」\n\n"
-        "以下是從資料庫找出的五個最相似句子，請依序查看是否有與查詢句意思完全相同的句子。\n"
+        "以下是從資料庫找出的五個最相似句子，請依序查看是否有與查詢句意思完全相同且能完全涵蓋的句子。\n"
         "回覆規則：\n"
-        "1. 如果資料庫中的五個最相似句子有與查詢句意思完全相同的句子，請從提供的資料庫句子中**只選出一個**完全相同的，並如此回覆：\n"
-        '相似句子: <句子>； 路徑: <動畫路徑> <end>\n'
-        "2. 如果沒有意思完全相同的句子，請回覆：\n"
-        '沒有相似的句子\n'
-        "3. 不得輸出任何其他文字或解釋。\n"
-        "4. 回答的句子與路徑完全為資料庫內容，不可任意組合。\n\n"
-        "資料庫句子：\n" +
-        "\n".join([f'句子: 「{sent}」\n動畫路徑: {path}' for sent, path in zip(top_sentences, top_animations)]) +
+        "1. 如果有符合的句子，請只回覆該句子的編號 (1~5)。\n"
+        "2. 如果沒有句意相同的句子，請回覆：\n"
+        "沒有句子\n"
+        "3. 不得輸出任何其他文字或解釋。\n\n"
+        "候選句子：\n" +
+        "\n".join([f"({i+1}) {sent}" for i, sent in enumerate(top_sentences)]) +
         "\n<end>"
     )
-
-    result = query_mistral(usr_prompt, query_sentence)
+    
+    result = query_mistral(usr_prompt, query_sentence, top_sentences, top_animations)
     
     print("Mistral 回覆：\n", result)
     
