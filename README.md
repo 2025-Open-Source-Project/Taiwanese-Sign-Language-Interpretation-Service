@@ -22,8 +22,8 @@
   - [文件結構](#文件結構)
 
 ## 參與競賽與計畫
-+  大專生計劃書: 
-+  大專校院智慧創新暨跨域整合創作競賽
++  [國科會大專生計劃 - 通過](https://github.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/tree/main/%E5%8F%83%E8%88%87%E7%AB%B6%E8%B3%BD%E8%88%87%E8%A8%88%E7%95%AB/%E5%A4%A7%E5%B0%88%E7%94%9F%E8%A8%88%E5%8A%83%E6%9B%B8)
++  [大專校院智慧創新暨跨域整合創作競賽 - 未進入決賽](https://github.com/2025-Open-Source-Project/Taiwanese-Sign-Language-Interpretation-Service/tree/main/%E5%8F%83%E8%88%87%E7%AB%B6%E8%B3%BD%E8%88%87%E8%A8%88%E7%95%AB/%E5%A4%A7%E5%B0%88%E6%A0%A1%E9%99%A2%E6%99%BA%E6%85%A7%E5%89%B5%E6%96%B0%E6%9A%A8%E8%B7%A8%E5%9F%9F%E6%95%B4%E5%90%88%E5%89%B5%E4%BD%9C%E7%AB%B6%E8%B3%BD)
 
 ## 理論基礎
 我們運用了自然語言處理與語音辨識技術，開發即時手語翻譯(生成)服務系統。使用者透過網頁前端輸入文字、上傳音訊檔案，或進行即時錄音，系統首先利用 Whisper 模型進行語音辨識，將音訊內容準確轉換為文字資料。
