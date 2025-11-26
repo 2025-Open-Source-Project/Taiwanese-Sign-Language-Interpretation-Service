@@ -1,0 +1,994 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>台灣手語翻譯系統</title>
+    <!-- 引入 FontAwesome 圖示 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- 引入 Google Fonts: Noto Sans TC (內文) & Inter (數字/英文) -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* 現代色票 (Modern Palette) */
+            --primary: #4f46e5;       /* Indigo 600 - 主色 */
+            --primary-hover: #4338ca; /* Indigo 700 */
+            --primary-light: #e0e7ff; /* Indigo 100 */
+            
+            --success: #10b981;       /* Emerald 500 */
+            --danger: #ef4444;        /* Red 500 */
+            --warning: #f59e0b;       /* Amber 500 */
+            
+            --bg-body: #f8fafc;       /* Slate 50 - 背景 */
+            --bg-card: #ffffff;
+            
+            --text-main: #0f172a;     /* Slate 900 */
+            --text-secondary: #64748b; /* Slate 500 */
+            --text-placeholder: #94a3b8;
+            
+            --border-radius: 20px;
+            --input-radius: 12px;
+            
+            /* 柔和陰影 (Soft Shadows) */
+            --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+            --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+            --shadow-lg: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+            
+            --transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            -webkit-font-smoothing: antialiased; /* 讓字體更清晰 */
+        }
+
+        body {
+            font-family: 'Inter', 'Noto Sans TC', sans-serif;
+            background-color: var(--bg-body);
+            color: var(--text-main);
+            line-height: 1.6;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            background-image: radial-gradient(circle at top right, #e0e7ff 0%, transparent 40%),
+                              radial-gradient(circle at bottom left, #fae8ff 0%, transparent 40%);
+            background-attachment: fixed;
+        }
+
+        /* Glassmorphism Header */
+        header {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .header-content {
+            max-width: 1400px;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            gap: 16px;
+        }
+
+        .logo-box {
+            width: 42px;
+            height: 42px;
+            background: linear-gradient(135deg, var(--primary), #818cf8);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.2rem;
+            box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+        }
+
+        h1 {
+            font-size: 1.25rem;
+            color: var(--text-main);
+            font-weight: 700;
+            letter-spacing: -0.025em;
+        }
+
+        /* Main Layout */
+        main {
+            flex: 1;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+            padding: 2rem;
+            display: grid;
+            grid-template-columns: 400px 1fr; /* 左側固定寬度，右側自適應 */
+            gap: 2rem;
+            align-items: start;
+        }
+
+        /* Modern Cards */
+        .card {
+            background: var(--bg-card);
+            border-radius: var(--border-radius);
+            padding: 2rem;
+            box-shadow: var(--shadow-lg);
+            border: 1px solid rgba(255,255,255,0.6);
+            height: 100%;
+            min-height: 650px;
+            display: flex;
+            flex-direction: column;
+            transition: transform 0.3s ease;
+        }
+
+        .card-input {
+            position: relative;
+            z-index: 10;
+        }
+
+        .card-header {
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .card-title {
+            font-size: 1.15rem;
+            font-weight: 700;
+            color: var(--text-main);
+        }
+        
+        .card-icon {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        /* Modern Inputs */
+        .input-group {
+            margin-bottom: 1.5rem;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 0.6rem;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-left: 4px;
+        }
+
+        textarea {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid transparent;
+            background-color: #f1f5f9;
+            border-radius: var(--input-radius);
+            font-size: 1rem;
+            font-family: inherit;
+            resize: none;
+            transition: var(--transition);
+            min-height: 140px;
+            color: var(--text-main);
+        }
+
+        textarea:focus {
+            outline: none;
+            background-color: #fff;
+            border-color: var(--primary);
+            box-shadow: 0 0 0 4px var(--primary-light);
+        }
+
+        textarea::placeholder {
+            color: var(--text-placeholder);
+        }
+
+        /* File Upload */
+        .file-upload-box {
+            display: block; /* 確保 label 行為像區塊元素 */
+            position: relative;
+            background-color: #f1f5f9;
+            border: 2px dashed #cbd5e1;
+            border-radius: var(--input-radius);
+            padding: 1rem;
+            text-align: center;
+            transition: var(--transition);
+            cursor: pointer;
+        }
+
+        .file-upload-box:hover {
+            border-color: var(--primary);
+            background-color: #f8fafc;
+        }
+
+        input[type="file"] {
+            width: 100%;
+            cursor: pointer;
+            font-size: 0.9rem;
+            color: var(--text-secondary);
+        }
+        
+        input[type="file"]::file-selector-button {
+            border: none;
+            background: var(--primary);
+            color: white;
+            padding: 6px 12px;
+            border-radius: 6px;
+            margin-right: 10px;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+        
+        input[type="file"]::file-selector-button:hover {
+            background: var(--primary-hover);
+        }
+
+        /* Buttons */
+        .btn-group {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+            margin-bottom: 1.5rem;
+        }
+
+        button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            padding: 0.85rem 1.5rem;
+            border: none;
+            border-radius: var(--input-radius);
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            position: relative;
+            overflow: hidden;
+        }
+
+        /* Primary Button (Send) */
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary), #4338ca);
+            color: white;
+            width: 100%;
+            margin-top: 0.5rem; /* 修改：大幅縮小間距，緊貼上方 */
+            box-shadow: 0 4px 12px rgba(79, 70, 229, 0.3);
+            font-size: 1.05rem;
+            padding: 1rem;
+        }
+
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 16px rgba(79, 70, 229, 0.4);
+        }
+
+        .btn-primary:active {
+            transform: translateY(0);
+        }
+
+        /* Record Button */
+        .btn-record {
+            background-color: white;
+            border: 1px solid #e2e8f0;
+            color: var(--text-main);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .btn-record:hover:not(:disabled) {
+            border-color: var(--primary);
+            color: var(--primary);
+            background-color: #f8fafc;
+        }
+
+        .btn-record:disabled {
+            background-color: #f1f5f9;
+            color: #cbd5e1;
+            cursor: not-allowed;
+            border-color: transparent;
+            box-shadow: none;
+        }
+
+        /* Stop Button */
+        .btn-stop {
+            background-color: #fef2f2;
+            color: var(--danger);
+            border: 1px solid #fee2e2;
+        }
+
+        .btn-stop:hover:not(:disabled) {
+            background-color: #fee2e2;
+            border-color: #fecaca;
+            transform: translateY(-1px);
+        }
+        
+        .btn-stop:disabled {
+            background-color: #f1f5f9;
+            color: #cbd5e1;
+            cursor: not-allowed;
+            border-color: transparent;
+            background-image: none;
+        }
+
+        /* Recording Status */
+        .recording-wrapper {
+            height: 24px;
+            margin-top: -10px;
+            margin-bottom: 1rem; /* 修改：減少底部間距，讓翻譯按鈕更靠近 */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .recording-status {
+            display: none;
+            align-items: center;
+            gap: 8px;
+            background-color: #fef2f2;
+            color: var(--danger);
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            animation: fadeIn 0.3s ease;
+        }
+        
+        .recording-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--danger);
+            border-radius: 50%;
+            box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7);
+            animation: pulse-red 1.5s infinite;
+        }
+
+        @keyframes pulse-red {
+            0% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0.7); }
+            70% { transform: scale(1); box-shadow: 0 0 0 6px rgba(239, 68, 68, 0); }
+            100% { transform: scale(0.95); box-shadow: 0 0 0 0 rgba(239, 68, 68, 0); }
+        }
+        
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(-5px); } to { opacity: 1; transform: translateY(0); } }
+
+        /* Result Area */
+        .result-container {
+            flex: 1;
+            background-color: #f8fafc;
+            border-radius: 16px;
+            padding: 0;
+            overflow: hidden; /* 為了讓 scrollbar 漂亮一點 */
+            border: 1px solid #e2e8f0;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .result-scroll-area {
+            flex: 1;
+            overflow-y: auto;
+            padding: 1.5rem;
+        }
+
+        .result-placeholder {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--text-placeholder);
+            text-align: center;
+            padding: 2rem;
+        }
+
+        .result-placeholder .icon-wrapper {
+            width: 80px;
+            height: 80px;
+            background-color: #f1f5f9;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .result-placeholder i {
+            font-size: 2.5rem;
+            color: #cbd5e1;
+        }
+
+        /* ===== 播放器與列表樣式 (新增部分) ===== */
+        .player-wrapper {
+            background: white;
+            padding: 1.25rem;
+            border-radius: 16px;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 1.5rem;
+            border: 1px solid #e2e8f0;
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        video {
+            width: 100%;
+            max-height: 360px;
+            border-radius: 12px;
+            background-color: #000;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .current-sentence-box {
+            background-color: var(--primary-light);
+            padding: 1rem;
+            border-radius: 12px;
+            border-left: 4px solid var(--primary);
+        }
+
+        .current-sentence-index {
+            font-size: 0.85rem;
+            color: var(--primary);
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            text-transform: uppercase;
+        }
+
+        .current-sentence-text {
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: var(--text-main);
+        }
+
+        .btn-replay {
+            background-color: white;
+            border: 1px solid #e2e8f0;
+            color: var(--text-main);
+            padding: 0.6rem 1rem;
+            border-radius: 10px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+            align-self: flex-start;
+        }
+
+        .btn-replay:hover {
+            background-color: #f8fafc;
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* Result Items */
+        .result-content h3 {
+            font-size: 1.1rem;
+            color: var(--text-secondary);
+            margin-bottom: 1rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            font-weight: 600;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+            display: inline-block;
+        }
+
+        .result-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 0.8rem;
+        }
+
+        .result-item {
+            background: white;
+            padding: 1rem;
+            border-radius: 12px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid #f1f5f9;
+            display: flex;
+            align-items: center; /* 讓圖示與文字垂直置中 */
+            gap: 1rem;
+            transition: var(--transition);
+        }
+        
+        /* 播放時的高亮狀態 */
+        .result-item.active-sentence {
+            background-color: #f0f9ff; /* 淺藍背景 */
+            border-color: var(--primary);
+            box-shadow: var(--shadow-md);
+            transform: scale(1.01); /* 微微放大 */
+        }
+
+        .result-icon {
+            flex-shrink: 0;
+            width: 36px;
+            height: 36px;
+            background-color: var(--primary-light);
+            color: var(--primary);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+        }
+        
+        .result-icon.empty {
+            background-color: #f1f5f9;
+            color: var(--text-placeholder);
+        }
+
+        .result-text {
+            flex: 1;
+        }
+        
+        .result-sentence {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-main);
+            margin-bottom: 0.2rem;
+        }
+        
+        .result-path {
+            font-size: 0.85rem;
+            color: var(--text-secondary);
+            font-family: 'Inter', monospace;
+            background: #f8fafc;
+            padding: 2px 6px;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        /* Loading Spinner */
+        .loading-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            color: var(--primary);
+        }
+        
+        .spinner {
+            width: 50px;
+            height: 50px;
+            border: 4px solid var(--primary-light);
+            border-top: 4px solid var(--primary);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+        
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            main {
+                grid-template-columns: 1fr;
+                max-width: 800px;
+            }
+            
+            .card {
+                min-height: auto;
+            }
+            
+            .result-container {
+                min-height: 400px;
+            }
+        }
+
+        @media (max-width: 640px) {
+            main {
+                padding: 1rem;
+                gap: 1.5rem;
+            }
+            
+            header {
+                padding: 1rem;
+            }
+            
+            .card {
+                padding: 1.5rem;
+            }
+            
+            .btn-group {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="logo-box">
+                <i class="fa-solid fa-hands-asl-interpreting"></i>
+            </div>
+            <h1>台灣手語翻譯系統</h1>
+        </div>
+    </header>
+
+    <main>
+        <!-- 左側：輸入區 -->
+        <section class="card card-input">
+            <div class="card-header">
+                <i class="fa-solid fa-pen-nib card-icon"></i>
+                <span class="card-title">輸入內容</span>
+            </div>
+
+            <div class="input-group">
+                <label for="textInput">文字查詢</label>
+                <textarea id="textInput" placeholder="請在此輸入想要翻譯的句子..."></textarea>
+            </div>
+
+            <div class="input-group">
+                <label>上傳音檔 (或錄音)</label>
+                <!-- 修改處：改為 label 並移除 onclick，解決開啟兩次檔案視窗的問題 -->
+                <label class="file-upload-box">
+                    <input type="file" id="audioUpload" accept="audio/*">
+                </label>
+            </div>
+
+            <label>語音錄製(先按開始錄音，再按停止，再按立即翻譯)</label>
+            <div class="btn-group">
+                <button onclick="startRecording()" class="btn-record" id="btnRec">
+                    <i class="fa-solid fa-microphone"></i> 開始錄音
+                </button>
+                <button onclick="stopRecording()" class="btn-stop" id="btnStop" disabled>
+                    <i class="fa-solid fa-square"></i> 停止
+                </button>
+            </div>
+            
+            <div class="recording-wrapper">
+                <div class="recording-status" id="recordingStatus">
+                    <div class="recording-dot"></div>
+                    <span>正在錄音...</span>
+                </div>
+            </div>
+
+            <button onclick="submit()" class="btn-primary">
+                <i class="fa-solid fa-wand-magic-sparkles"></i> 立即翻譯
+            </button>
+        </section>
+
+        <!-- 右側：結果區 -->
+        <section class="card">
+            <div class="card-header">
+                <i class="fa-solid fa-clapperboard card-icon"></i>
+                <span class="card-title">翻譯結果</span>
+            </div>
+
+            <div class="result-container">
+                <div class="result-scroll-area" id="result">
+                    <!-- 預設顯示狀態 -->
+                    <div class="result-placeholder">
+                        <div class="icon-wrapper">
+                            <i class="fa-solid fa-language"></i>
+                        </div>
+                        <h4 style="color:var(--text-main); margin-bottom:8px; font-weight:600;">等待輸入</h4>
+                        <p>請在左側輸入文字或錄製語音<br>系統將自動為您翻譯成手語影片</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script>
+        let recorder, audioBlob;
+        let isRecording = false;
+        let videoDB = new Set();
+        let videoDBReady = false;
+        
+        // 載入影片資料庫 JSON (還原為簡潔版，移除 Mock 邏輯)
+        async function loadVideoDB() {
+            try {
+                const res = await fetch("videos.json");
+                if (!res.ok) throw new Error("檔案不存在或路徑錯誤");
+                const data = await res.json();
+                videoDB = new Set(data.videos);
+                videoDBReady = true;
+                console.log("已載入影片資料庫：", videoDB);
+            } catch (err) {
+                console.error("載入 videos.json 失敗 (伺服器端環境應可正常運作)：", err);
+            }
+        }
+        loadVideoDB();
+        
+        async function startRecording() {
+            if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) {
+                alert("⚠️ 您的瀏覽器不支援錄音功能，或未允許權限。");
+                return;
+            }
+
+            try {
+                const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+                recorder = new MediaRecorder(stream);
+                const chunks = [];
+                recorder.ondataavailable = e => chunks.push(e.data);
+                recorder.onstop = () => {
+                    audioBlob = new Blob(chunks, { type: 'audio/webm' });
+                    stream.getTracks().forEach(track => track.stop());
+                };
+                recorder.start();
+                isRecording = true;
+                
+                // UI 更新
+                document.getElementById('recordingStatus').style.display = 'flex';
+                document.getElementById('btnRec').disabled = true;
+                document.getElementById('btnStop').disabled = false;
+                
+            } catch (err) {
+                console.error("錄音失敗：", err);
+                alert("⚠️ 無法啟動麥克風，請檢查權限設定。");
+            }
+        }
+
+        function stopRecording() {
+             if (recorder && isRecording) {
+                recorder.stop();
+                isRecording = false;
+                
+                // UI 更新
+                document.getElementById('recordingStatus').style.display = 'none';
+                document.getElementById('btnRec').disabled = false;
+                document.getElementById('btnStop').disabled = true;
+            }
+        }
+
+        // renderResult 函式處理影片播放與 UI 渲染
+        function renderResult(r, recognizedText = "") {
+            const resultDiv = document.getElementById("result");
+            
+            // 整理可播放的項目
+            const playableItems = [];
+            let listHTML = "";
+            let headerHTML = "";
+            
+            // 如果有語音辨識文字，顯示在最上方
+            if (recognizedText) {
+                headerHTML += `
+                <div style="background:var(--primary-light); padding:16px; border-radius:12px; margin-bottom:24px; color:var(--primary-hover); display:flex; gap:10px; align-items:center;">
+                    <i class="fa-solid fa-microphone-lines" style="font-size:1.2rem;"></i>
+                    <div>
+                        <div style="font-size:0.85rem; opacity:0.8;">語音辨識結果</div>
+                        <div style="font-weight:700; font-size:1.1rem;">${recognizedText}</div>
+                    </div>
+                </div>`;
+            }
+
+            r.result.forEach((item, idx) => {
+                const hasVideo = videoDB.has(item.animation_path);
+                const iconClass = hasVideo ? "fa-solid fa-play" : "fa-solid fa-circle-xmark";
+                const iconStyleClass = hasVideo ? "" : "empty";
+                const pathDisplay = hasVideo ? item.animation_path : "無對應影片";
+                
+                if (hasVideo) {
+                    const playIndex = playableItems.length;
+                    playableItems.push({
+                        sentence: item.sentence,
+                        path: item.animation_path,
+                        originalIndex: idx
+                    });
+                    
+                    listHTML += `
+                    <li id="sent-${idx}" class="result-item" style="cursor: pointer;">
+                        <div class="result-icon ${iconStyleClass}">
+                            <i class="${iconClass}"></i>
+                        </div>
+                        <div class="result-text">
+                            <div class="result-sentence">${item.sentence}</div>
+                            <!-- <div class="result-path">${pathDisplay}</div> -->
+                        </div>
+                    </li>`;
+                } else {
+                    listHTML += `
+                    <li id="sent-${idx}" class="result-item">
+                        <div class="result-icon ${iconStyleClass}">
+                            <i class="${iconClass}"></i>
+                        </div>
+                        <div class="result-text">
+                            <div class="result-sentence">${item.sentence}</div>
+                            <!-- <div class="result-path" style="color:var(--text-placeholder)">${pathDisplay}</div> -->
+                        </div>
+                    </li>`;
+                }
+            });
+
+            // 組合 HTML：若無影片可播，僅顯示列表
+            if (playableItems.length === 0) {
+                resultDiv.innerHTML = `
+                    <div class="result-content">
+                        ${headerHTML}
+                        <h3>查詢結果</h3>
+                        <p style="color:var(--text-secondary); margin-bottom:1rem;">目前沒有可以播放的手語影片。</p>
+                        <ul class="result-list">${listHTML}</ul>
+                    </div>
+                `;
+                return;
+            }
+
+            // 有影片：建立播放器區域 + 列表
+            resultDiv.innerHTML = `
+                <div class="result-content">
+                    ${headerHTML}
+                    
+                    <h3>手語演示</h3>
+                    <div class="player-wrapper">
+                        <video id="signVideo" controls muted playsinline></video>
+                        
+                        <div class="current-sentence-box" id="currentSentenceBox">
+                            <div class="current-sentence-index" id="currentSentenceIndex">準備播放...</div>
+                            <div class="current-sentence-text" id="currentSentenceText">-</div>
+                        </div>
+                        
+                        <button id="replayBtn" class="btn-replay">
+                            <i class="fa-solid fa-rotate-right"></i> 重新播放整段手語
+                        </button>
+                    </div>
+
+                    <h3>分詞結果列表</h3>
+                    <ul class="result-list" id="sentenceList">
+                        ${listHTML}
+                    </ul>
+                </div>
+            `;
+
+            // 設定播放邏輯
+            const video = document.getElementById("signVideo");
+            const replayBtn = document.getElementById("replayBtn");
+            const idxDiv = document.getElementById("currentSentenceIndex");
+            const textDiv = document.getElementById("currentSentenceText");
+            const listElement = document.getElementById("sentenceList");
+
+            let currentPlayIdx = 0; 
+
+            function clearHighlight() {
+                const items = listElement.querySelectorAll(".active-sentence");
+                items.forEach(el => el.classList.remove("active-sentence"));
+            }
+
+            function updateCurrentSentenceDisplay(item, idx1based, total) {
+                idxDiv.textContent = `PLAYING ${idx1based} / ${total}`;
+                textDiv.textContent = item.sentence;
+
+                clearHighlight();
+                const li = document.getElementById(`sent-${item.originalIndex}`);
+                if (li) {
+                    li.classList.add("active-sentence");
+                    // 讓列表自動捲動到正在播放的項目
+                    li.scrollIntoView({ behavior: "smooth", block: "center" });
+                }
+            }
+
+            function playCurrent() {
+                if (currentPlayIdx >= playableItems.length) {
+                    // 全部播完
+                    return;
+                }
+                const item = playableItems[currentPlayIdx];
+                const src = "videos/" + item.path;
+                video.src = src;
+
+                updateCurrentSentenceDisplay(item, currentPlayIdx + 1, playableItems.length);
+
+                video.play().catch(err => {
+                    console.error("影片播放失敗 (可能是瀏覽器阻擋自動播放或檔案不存在)：", err);
+                });
+
+                currentPlayIdx++;
+            }
+
+            // 一句播完，自動播下一句
+            video.addEventListener("ended", playCurrent);
+
+            // 重播整段
+            replayBtn.addEventListener("click", () => {
+                video.pause();
+                video.currentTime = 0;
+                currentPlayIdx = 0;
+                playCurrent();
+            });
+
+            // 啟動播放
+            playCurrent();
+        }
+
+        async function submit() {
+            const text = document.getElementById("textInput").value.trim();
+            const fileInput = document.getElementById("audioUpload");
+            const resultDiv = document.getElementById("result");
+            
+            // 顯示 Loading 狀態
+            resultDiv.innerHTML = `
+                <div class="loading-container">
+                    <div class="spinner"></div>
+                    <p style="font-weight:500; color:var(--text-secondary)">正在分析語意...</p>
+                </div>
+            `;
+
+            try {
+                // Case 1：文字查詢
+                if (text) {
+                    const res = await fetch("http://140.123.105.233:9000/semantic_check", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ text: text })
+                    });
+                    
+                    const r = await res.json();
+                    renderResult(r);
+                } 
+
+                // Case 2：上傳音檔或錄音
+                else if (fileInput.files.length > 0 || audioBlob) {
+                    const formData = new FormData();
+                    if (fileInput.files.length > 0) {
+                        formData.append("files", fileInput.files[0]);
+                    } else {
+                        formData.append("files", new File([audioBlob], "recorded.webm"));
+                    }
+                    
+                    let transcribeResult;
+                    let fullText = "";
+
+                    // 先進行語音轉文字
+                    try {
+                        const response = await fetch("http://140.123.105.233:8080/transcribe/", {
+                            method: "POST",
+                            headers: { "accept": "application/json" },
+                            body: formData
+                        });
+
+                        transcribeResult = await response.json();
+                        fullText = transcribeResult.result[0].transcription;
+                    } catch (err) {
+                        console.error("語音辨識錯誤：", err);
+                        resultDiv.innerHTML = `
+                            <div class="result-placeholder" style="color:var(--danger);">
+                                <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                                <p style="margin-top:10px;">語音辨識失敗：${err.message || "無法連線"}</p>
+                            </div>
+                        `;
+                        return; // 中斷後續執行
+                    }
+
+                    // 接著進行語意檢查 (注意：這裡修正回 port 9000)
+                    const res = await fetch("http://140.123.105.233:9000/semantic_check", {
+                        method: "POST",
+                        headers: { "Content-Type": "application/json" },
+                        body: JSON.stringify({ text: fullText })
+                    });
+                    
+                    const r = await res.json();
+                    renderResult(r, fullText);
+                } else {
+                    resultDiv.innerHTML = `
+                        <div class="result-placeholder">
+                            <div class="icon-wrapper" style="background-color:#fef2f2; color:var(--danger);">
+                                <i class="fa-solid fa-triangle-exclamation" style="color:var(--danger);"></i>
+                            </div>
+                            <h4 style="color:var(--text-main); margin-bottom:8px;">缺少內容</h4>
+                            <p>請輸入文字或錄製語音後再送出。</p>
+                        </div>
+                    `;
+                }
+            } catch (err) {
+                console.error("處理錯誤：", err);
+                // 恢復為直接顯示錯誤訊息
+                resultDiv.innerHTML = `
+                    <div class="result-placeholder" style="color:var(--danger);">
+                        <i class="fa-solid fa-triangle-exclamation fa-2x"></i>
+                        <p style="margin-top:10px;">發生錯誤：${err.message || "無法連線至伺服器"}</p>
+                    </div>
+                `;
+            }
+        }
+    </script>
+</body>
+</html>
