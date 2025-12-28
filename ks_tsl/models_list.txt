@@ -1,0 +1,2 @@
+gte-Qwen2-1.5B-instruct
+Mistral-7B-Instruct-v0.2
