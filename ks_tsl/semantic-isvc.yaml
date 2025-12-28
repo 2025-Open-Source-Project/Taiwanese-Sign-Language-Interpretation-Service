@@ -1,0 +1,38 @@
+apiVersion: serving.kserve.io/v1beta1
+kind: InferenceService
+metadata:
+  name: semantic-service
+  namespace: tsl-service
+spec:
+  predictor:
+    containers:
+      - name: semantic-container
+        image: 1lyvianis/tsl-semantic-service:latest
+        ports:
+          - containerPort: 8080
+            name: http1
+        env:
+          - name: QWEN_MODEL_PATH
+            value: /mnt/models/models/gte-Qwen2-1.5B-instruct
+          - name: MISTRAL_MODEL_PATH
+            value: /mnt/models/models/Mistral-7B-Instruct-v0.2
+          - name: SIGN_VECTORS_PATH
+            value: /mnt/models/sign_vectors.pkl
+        volumeMounts:
+          - name: models-volume
+            mountPath: /mnt/models
+            readOnly: true
+        resources:
+          requests:
+            cpu: "2"
+            memory: 8Gi
+            nvidia.com/gpu: "1"
+          limits:
+            cpu: "4"
+            memory: 16Gi
+            nvidia.com/gpu: "1"        
+    volumes:
+      - name: models-volume
+        persistentVolumeClaim:
+          claimName: models-pvc
+          readOnly: true

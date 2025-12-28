@@ -1,0 +1,28 @@
+# CUDA runtime
+FROM nvidia/cuda:12.1.0-runtime-ubuntu22.04
+
+ENV DEBIAN_FRONTEND=noninteractive \
+    PYTHONUNBUFFERED=1
+
+# 基本工具
+RUN apt-get update && apt-get install -y \
+    python3 python3-pip python3-dev git && \
+    rm -rf /var/lib/apt/lists/*
+
+# Python 執行環境
+RUN ln -s /usr/bin/python3 /usr/bin/python
+
+WORKDIR /app
+
+# 安裝依賴
+COPY requirements.txt /app/requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 複製程式碼（不包含模型）
+COPY app.py /app/app.py
+
+# 對外開放端口
+EXPOSE 8080
+
+# 啟動 FastAPI
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080"]
